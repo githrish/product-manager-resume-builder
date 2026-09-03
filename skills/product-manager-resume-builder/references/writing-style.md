@@ -65,6 +65,29 @@ Three things worth knowing:
 - **Overshooting is worse than undershooting.** Slightly too long spills to three lines with a near-empty tail. Slightly too short just sits on one line, which is fine.
 - **Keep the two-line band narrow.** At the edges, the same sentence wraps differently across layouts. `1.85 c` to `1.96 c` survives a spread of about six characters per line between layouts; wider than that and no single text satisfies them all.
 
+### The rule covers every row, not only bullets
+
+A page where the bullets reach the margin but the summary, the skills rows and the education line stop halfway looks unfinished, and those rows are usually the worst offenders because nobody thinks to measure them.
+
+Apply the same 80% test to **every** text row: the summary, each skills line, education, certifications, and any projects entries.
+
+**Skills rows.** You cannot pad these, because the candidate either has the skill or does not. Fix a short row by rebalancing instead:
+
+- **Move items between categories.** A long Product row and a thin Technical row usually means something technical got filed under product.
+- **Merge two thin categories into one.** "Domain" and "Industry" holding three items each is better as a single row of six.
+- **Drop the category.** Two full rows beat three ragged ones.
+- **Add only what they actually named** in step 3. Never invent a tool to fill a line.
+
+**Education.** The degree subject, the institution, the year, then genuine activities or honours. If it still runs short, that is fine on the last line of the page. Do not invent a distinction.
+
+**The summary.** Three full lines, or two full lines. Never three lines where the third holds four words. If there is not enough true material for three, write two.
+
+### Longer blocks have a narrower window
+
+The more lines a block occupies, the smaller the character window that satisfies the rule, because the same tolerance is divided across more lines. A two-line bullet has room to breathe; a three-line summary barely does, and the same text can wrap to three lines in one layout and four in another.
+
+So prefer fewer full lines to more ragged ones. When a block sits on the boundary, cut it to the shorter line count rather than stretching for the longer one.
+
 ### Vary the lengths
 
 A role whose bullets are all the same shape reads as generated, and the rule above will produce exactly that if applied mechanically. Aim for a mix: one or two two-line bullets carrying the strongest evidence, the rest on a single line. Uneven rhythm is what makes a page read as written by a person.

@@ -788,6 +788,7 @@ Expect to tune spacing per layout. Identical content ran 31 to 62px long across 
 
 - Every bullet fits two rendered lines or fewer
 - Every wrapped bullet fills at least 80% of its last line
+- The summary, every skills row and the education line clear the same 80%, since short rows there are the most common way a page looks unfinished
 - Numbers and outcome phrases are bold, two spans per bullet at most
 - One page, without shrinking margins below 0.4in or body text below 9.5pt
 - Copy the text out of the finished PDF and paste it into a blank document. That is what the parser sees. If the order scrambles or anything vanishes, fix it before sending
@@ -859,6 +860,29 @@ Three things worth knowing:
 - **The window is layout-specific.** A serif holds around 116 characters per line where a narrow sans holds around 122 in the same measure. Retune whenever the layout changes.
 - **Overshooting is worse than undershooting.** Slightly too long spills to three lines with a near-empty tail. Slightly too short just sits on one line, which is fine.
 - **Keep the two-line band narrow.** At the edges, the same sentence wraps differently across layouts. `1.85 c` to `1.96 c` survives a spread of about six characters per line between layouts; wider than that and no single text satisfies them all.
+
+#### The rule covers every row, not only bullets
+
+A page where the bullets reach the margin but the summary, the skills rows and the education line stop halfway looks unfinished, and those rows are usually the worst offenders because nobody thinks to measure them.
+
+Apply the same 80% test to **every** text row: the summary, each skills line, education, certifications, and any projects entries.
+
+**Skills rows.** You cannot pad these, because the candidate either has the skill or does not. Fix a short row by rebalancing instead:
+
+- **Move items between categories.** A long Product row and a thin Technical row usually means something technical got filed under product.
+- **Merge two thin categories into one.** "Domain" and "Industry" holding three items each is better as a single row of six.
+- **Drop the category.** Two full rows beat three ragged ones.
+- **Add only what they actually named** in step 3. Never invent a tool to fill a line.
+
+**Education.** The degree subject, the institution, the year, then genuine activities or honours. If it still runs short, that is fine on the last line of the page. Do not invent a distinction.
+
+**The summary.** Three full lines, or two full lines. Never three lines where the third holds four words. If there is not enough true material for three, write two.
+
+#### Longer blocks have a narrower window
+
+The more lines a block occupies, the smaller the character window that satisfies the rule, because the same tolerance is divided across more lines. A two-line bullet has room to breathe; a three-line summary barely does, and the same text can wrap to three lines in one layout and four in another.
+
+So prefer fewer full lines to more ragged ones. When a block sits on the boundary, cut it to the shorter line count rather than stretching for the longer one.
 
 #### Vary the lengths
 

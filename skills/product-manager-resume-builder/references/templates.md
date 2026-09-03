@@ -155,6 +155,7 @@ Expect to tune spacing per layout. Identical content ran 31 to 62px long across 
 
 - Every bullet fits two rendered lines or fewer
 - Every wrapped bullet fills at least 80% of its last line
+- The summary, every skills row and the education line clear the same 80%, since short rows there are the most common way a page looks unfinished
 - Numbers and outcome phrases are bold, two spans per bullet at most
 - One page, without shrinking margins below 0.4in or body text below 9.5pt
 - Copy the text out of the finished PDF and paste it into a blank document. That is what the parser sees. If the order scrambles or anything vanishes, fix it before sending
