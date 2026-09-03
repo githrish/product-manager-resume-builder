@@ -35,6 +35,22 @@ For PM postings specifically, treat these as soft: a named analytics tool, a spe
 
 Before applying, it is worth checking recent company news for layoffs or funding, and how long people stay in similar roles. Say this once as advice; do not turn it into a research project inside a resume session.
 
+## Keywords, what the matcher actually rewards
+
+A modern system runs two layers: a parser that pulls structured fields out of the file, and a matcher that scores those fields against the posting. The section below covers the parser. This covers the matcher, and the guidance has moved on from the advice most candidates have absorbed.
+
+**Keyword filtering is close to universal**, so the terms in the posting have to appear in the resume. This is the part of the folklore that holds up.
+
+**Frequency is not the lever.** Systems with a language model in the loop score relevance in context, and repeating a term to raise a count can lower the score rather than raise it. One appearance inside a real bullet, with the number and the method around it, beats six mentions in a skills list.
+
+**Write the phrase the posting uses, once, where it is true.** A posting that says *experimentation* and a resume that says *A/B testing* may or may not be matched depending on the system. Where both are accurate, use theirs.
+
+**Never hide text.** White text, a zero-size font, keywords behind an image: parsers read the underlying text regardless of colour, and any recruiter who selects the text in the PDF sees it. It is treated as fraud, not as optimisation.
+
+**Formatted PDFs are fine.** Workday, Greenhouse, Lever and iCIMS parse a normal single-column PDF correctly. The failures below are about structure, not about the file being a PDF.
+
+**The order of work.** Pull the must-haves from the posting, check which are genuinely true of the candidate, and place each one inside the bullet where it is already earned. A keyword that cannot be placed truthfully is a gap to name, not a word to insert.
+
 ## ATS parser failures
 
 Keyword matching only happens after the file parses. Most rejections that people blame on keywords are parse failures. The formatting spec in the templates reference prevents nearly all of them, but check these explicitly before finalising:

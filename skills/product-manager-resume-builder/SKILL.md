@@ -143,7 +143,12 @@ Only now do you write. One role at a time, **before → after for every bullet**
 
 Read `references/bullets.md` for the formula, the ownership ladder, the metric taxonomy, the Estimation Protocol, and the anti-patterns. Read `references/writing-style.md` before writing the first bullet.
 
-Three rules on every bullet, checked before you show it:
+**Substance first, and it is not optional.** Before a bullet is worth formatting, it has to survive two checks:
+
+- **The outcome test.** Read it and ask *so what happened?* If the answer is not in the bullet, it is not finished. Add the result, merge it into the bullet it serves, or cut it. A launch, a decision, a method or a sequence is not an outcome.
+- **The verb.** A specific verb naming what you did. Not *built, worked on, helped, supported, responsible for*, which describe proximity rather than ownership. Not *spearheaded, orchestrated, revolutionised, drove, leveraged*, which read as filler and cost credibility on a junior resume. Reaching for a bigger verb is the standard repair for a weak bullet and the most obvious one.
+
+Then three rules on presentation:
 
 - **Two rendered lines maximum.** Three-line bullets get skipped. If it needs three, it holds two ideas.
 - **No trailing participle clauses.** A comma followed by an "-ing" word is the strongest tell that a machine wrote it.
@@ -189,7 +194,10 @@ Verify every line. Report failures rather than silently fixing them.
 - [ ] Every number is the candidate's own or a confirmed, labelled estimate
 - [ ] Every ownership verb matches actual accountability
 - [ ] Every bullet passes the Defensibility Test
-- [ ] No duty-based bullets; every one has an outcome or a scale figure
+- [ ] **Every bullet scored against the five-check table in `references/bullets.md`.** Report how many failed and on which check, name the worst two, and show each rewrite beside its original. Ticking this box without doing the scoring is how dead bullets ship
+- [ ] No bullet survives the outcome test by assertion. A method or a sequence with no consequence is merged into the bullet it serves, or cut
+- [ ] No opener from the weak list or the inflated list, and no verb repeated inside a role
+- [ ] No borrowed numbers: a product-wide or company-wide figure never sits at the end of a bullet about one feature
 - [ ] Zero anti-patterns from `references/bullets.md`
 - [ ] The step 2 archetype is legible in the top third of the page
 - [ ] Level signal matches the target level

@@ -14,6 +14,32 @@ The last clause is the one PMs skip, and it's the one that proves you did the wo
 **Before:** Owned the roadmap for the merchant dashboard
 **After:** Rebuilt the merchant dashboard roadmap around three retention bets, lifting 90-day merchant retention from 61% to 74% by cutting six planned features that user interviews showed nobody used
 
+### The outcome test, run it on every bullet before anything else
+
+Read the bullet and ask **so what happened?** If the answer is not in the bullet, the bullet is not finished. This is the single check that catches the most failures, and it outranks every other rule here.
+
+A bullet may describe an action, a decision, a method, or a launch. None of those is an outcome. "Launched X before Y to prove Z" states a sequence and stops. "Migrated the service to a new queue" states a task. Both pass every anti-pattern below and both are still dead, because a reader finishes them and knows nothing about what changed.
+
+Three ways out, in order of preference:
+
+1. **Add the result.** Usually it exists and was left out because it felt obvious to the person who lived it.
+2. **Merge it into the bullet it serves.** A method with no result of its own is often the missing `by doing Z` clause of the bullet above or below it. Two half-bullets make one strong one, and you get a line back.
+3. **Cut it.** A resume with six bullets that each land beats one with ten where four are scaffolding.
+
+Never solve this by adding a number that was not measured. Never solve it by inflating the verb, which is the most common repair and the most transparent.
+
+### Verbs, the smallest lever on the page
+
+Open every bullet with a verb that names what you actually did. That much is settled. The part most advice gets wrong is what "strong" means.
+
+**Weak openers, rewrite these.** *Built, worked on, helped, supported, assisted, participated in, involved in, responsible for, tasked with, contributed to.* They either describe proximity to the work rather than ownership of it, or they are so general that they carry no information. *Built* is the one that slips through most often, because it sounds concrete while saying nothing about your role.
+
+**Inflated openers, also rewrite these.** *Spearheaded, orchestrated, revolutionised, transformed, pioneered, championed, drove, leveraged, engineered the development of.* Recruiters read these as filler rather than as signal, and an experienced one reads the gap between an inflated verb and a thin outcome instantly. On a junior resume they actively cost credibility. Reaching for a thesaurus is a sign the underlying bullet is weak; fix the bullet instead.
+
+**What to use.** The plain verb that describes the actual act: *owned, shipped, launched, rebuilt, cut, raised, migrated, priced, negotiated, instrumented, killed, scoped, replaced, ran*. Specific beats impressive. *Killed three features nobody used* is stronger than *streamlined the product portfolio* and always will be.
+
+**Do not repeat a verb inside one role**, and do not stack two (*designed and implemented*). Pick the one that carries the weight.
+
 ### The Ownership Ladder, pick the honest rung
 
 | Verb | Means | Only use if |
@@ -59,6 +85,9 @@ Never skip a metric, and never fabricate one. Instead:
 - **Team results as personal claims**, "Grew revenue 40%" when you owned one feature in that funnel
 - **Vanity metrics with no baseline**, "increased engagement 200%" from a base of 3 users
 - **Certifications as headline**, CSPO/PSPO in the summary signals you're compensating for thin experience
+- **The scope inventory**, "Built the product end to end, from onboarding through payments and analytics" lists everything you touched and reports nothing that happened. Breadth is context, never the achievement. If solo scope is genuinely the point, count it and attach a result: *shipped all five systems alone and reached paying customers with no engineering hire*
+- **The orphan method**, a decision or sequence with no consequence attached. See the outcome test above; merge it or cut it
+- **Someone else's number**, a product-wide NPS or a company revenue figure sitting at the end of a bullet about your feature. It reads as borrowed the moment anyone asks about it in an interview
 
 **Additional anti-patterns when breaking in**
 
@@ -69,3 +98,18 @@ Never skip a metric, and never fabricate one. Instead:
 - **"Passionate about products"**, every applicant writes this
 - **Teardowns of famous apps in the Experience section**, excellent in a portfolio, disqualifying as work history
 - **No evidence of ever shipping anything**, if this is genuinely true, run the Gap-Filling Sprint at steps 2 and 6
+
+
+### The bullet audit, run at step 6
+
+Score every bullet against five checks and show the candidate the failures. Do not silently rewrite.
+
+| Check | Passes when |
+|---|---|
+| **Outcome** | A reader knows what changed. Not what you launched, ran, or decided |
+| **Measure** | A number, or an explicit scale figure where no delta was ever measured |
+| **Method** | The non-obvious thing you did, so the outcome is credibly yours |
+| **Verb** | Specific and accurate. Not on the weak list, not on the inflated list, not repeated inside the role |
+| **Ownership** | The claim matches the rung on the Ownership Ladder, and no borrowed numbers |
+
+**Reporting it.** Say how many bullets failed and on which check, name the worst two, and give the rewrite alongside the original so the candidate can see the difference. A resume where every bullet passes all five is rare and usually means someone padded; two or three honest misses in a first draft is normal. What is not acceptable is shipping a bullet that fails the outcome test, because it occupies a line and earns nothing.
