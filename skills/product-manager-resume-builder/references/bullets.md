@@ -86,6 +86,8 @@ Never skip a metric, and never fabricate one. Instead:
 - **Vanity metrics with no baseline**, "increased engagement 200%" from a base of 3 users
 - **Certifications as headline**, CSPO/PSPO in the summary signals you're compensating for thin experience
 - **The scope inventory**, "Built the product end to end, from onboarding through payments and analytics" lists everything you touched and reports nothing that happened. Breadth is context, never the achievement. If solo scope is genuinely the point, count it and attach a result: *shipped all five systems alone and reached paying customers with no engineering hire*
+- **Claims of absence**, "with no engineering help", "with zero budget", "single-handedly", "with no design support". You cannot verify an absence and neither can the candidate, so it reads as a boast the moment anyone probes it, and one contractor or one weekend of help from a friend makes it false. Never write one the candidate did not state in their own words, and when they do state it, ask what help they actually had before it goes on the page. Founders and solo builders almost always had more help than they remember at intake.
+- **Solo repeated**, once the role line says founder or sole owner, the bullets do not need to say it again. Three assertions of working alone in one section reads as insecurity about the scope rather than as evidence of it. State it once, in the role descriptor, and let the ownership verbs carry the rest
 - **The orphan method**, a decision or sequence with no consequence attached. See the outcome test above; merge it or cut it
 - **Someone else's number**, a product-wide NPS or a company revenue figure sitting at the end of a bullet about your feature. It reads as borrowed the moment anyone asks about it in an interview
 
@@ -110,6 +112,6 @@ Score every bullet against five checks and show the candidate the failures. Do n
 | **Measure** | A number, or an explicit scale figure where no delta was ever measured |
 | **Method** | The non-obvious thing you did, so the outcome is credibly yours |
 | **Verb** | Specific and accurate. Not on the weak list, not on the inflated list, not repeated inside the role |
-| **Ownership** | The claim matches the rung on the Ownership Ladder, and no borrowed numbers |
+| **Ownership** | The claim matches the rung on the Ownership Ladder. No borrowed numbers, and no claim of absence the candidate did not make themselves |
 
 **Reporting it.** Say how many bullets failed and on which check, name the worst two, and give the rewrite alongside the original so the candidate can see the difference. A resume where every bullet passes all five is rare and usually means someone padded; two or three honest misses in a first draft is normal. What is not acceptable is shipping a bullet that fails the outcome test, because it occupies a line and earns nothing.
