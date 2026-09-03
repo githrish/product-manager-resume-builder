@@ -115,7 +115,7 @@ Margins       0.6in
 
 The deliverable is a **PDF and a DOCX**, not Markdown. Markdown is a staging format only, and it is shown to the candidate at step 5 as part of the layout review, never handed over as the finished resume.
 
-**Author in HTML.** It is the only format where line widths can be measured, which is what the 80% line-fill rule needs. Write a single self-contained HTML file with a print stylesheet:
+**Author in HTML.** It is the only format where line widths can be measured, which is what the line-fill rule needs. Write a single self-contained HTML file with a print stylesheet:
 
 ```css
 @page { size: A4; margin: 0; }
@@ -154,8 +154,9 @@ Expect to tune spacing per layout. Identical content ran 31 to 62px long across 
 ## Before handing it over
 
 - Every bullet fits two rendered lines or fewer
-- Every wrapped bullet fills at least 80% of its last line
-- The summary, every skills row and the education line clear the same 80%, since short rows there are the most common way a page looks unfinished
+- No wrapped bullet strands its last line below roughly 30% of the width
+- The summary, skills rows and education line clear the same floor, since short rows there are the most common way a page looks unfinished
+- No metric, scope figure or decision was cut to make a line end tidily
 - Numbers and outcome phrases are bold, two spans per bullet at most
 - One page, without shrinking margins below 0.4in or body text below 9.5pt
 - Copy the text out of the finished PDF and paste it into a blank document. That is what the parser sees. If the order scrambles or anything vanishes, fix it before sending
