@@ -19,13 +19,13 @@ Seven steps. It tells you where you are at each one, and nothing gets written un
 | 3 | Excavation | Answer questions about your work, one role at a time |
 | 4 | Bullets | Review before and after on every rewrite |
 | 5 | Assembly | Choose a layout from five options |
-| 6 | Audit and save | Get the failure list, the estimates to defend, and the finished file |
+| 6 | Audit and build | Get the failure list, the estimates to defend, and the finished PDF and DOCX |
 
 Step 1 forks. If you have a resume, it diagnoses it and asks what you have done since. If you do not, a five-pass protocol builds from nothing. The layout choice waits until step 5 on purpose, because which one wins depends on what the interview turns up.
 
 ## Scope
 
-It builds a **master resume** and stops there. That is a finished, sendable, one-page document, and it is also the thing you keep and reuse.
+It builds a **master resume** and stops there: a formatted one-page PDF and DOCX, ATS-safe, plus the HTML they were built from so you can edit and re-export later.
 
 Two related jobs are deliberately not in this version: choosing how to position yourself across role types, and trimming the master against a specific job description. Both are better done once the master exists, and both are planned separately rather than bolted onto the build.
 
@@ -37,11 +37,15 @@ It never inflates ownership. Led, Drove, Partnered with, and Contributed to mean
 
 It never changes a job title. Titles get verified in background checks, so it gives you an honest scope line under the real title instead.
 
-Everything it produces is text only and one page: no photo, no graphics, no columns, no tables. That is what survives ATS parsing. The two-page exception exists but has to be offered and accepted, never taken quietly.
+Everything it produces is one page and single column, with no photo, graphics, icons, columns or tables. Those are what break ATS parsing. Colour, typography, bold and spacing are fine, so the result looks designed without becoming unparseable. The two-page exception exists but has to be offered and accepted, never taken quietly.
+
+It also will not hand you a Markdown file and call it a resume. Markdown is a staging step you review at step 5; the deliverable is a formatted document.
 
 ## Install
 
-**Download (no terminal needed).** Download this repo as a ZIP, unzip it, and upload the `skills/product-manager-resume-builder` folder to your assistant. In claude.ai that is Settings, then Capabilities, then Skills.
+**Download (no terminal needed).** Grab [`dist/product-manager-resume-builder.zip`](dist/product-manager-resume-builder.zip) and upload it as-is. In claude.ai that is Settings, then Capabilities, then Skills.
+
+Use that archive rather than the repo ZIP. It contains the skill folder with `SKILL.md` and the whole `references/` directory at the right depth. Zipping the repository instead nests everything one level too deep, and the reference files silently fail to load: the session still runs, but without the archetype tables, market conventions, layouts and writing rules.
 
 **Copy the prompt (no install at all).** Open [`dist/prompt.md`](dist/prompt.md), copy the whole file, and paste it into any chat. Works in ChatGPT, Gemini, and anywhere else.
 
@@ -78,7 +82,8 @@ skills/product-manager-resume-builder/
     ├── transitions.md      # switching in from another function with real seniority
     ├── breaking-in.md      # early-career entry targets, transferable evidence map
     ├── bullets.md          # formula, ownership ladder, metrics, anti-patterns
-    ├── templates.md        # five layouts, one-page cutting order, formatting spec
+    ├── writing-style.md    # AI tells to avoid, bullet length, line fill, bolding
+    ├── templates.md        # five layouts, visual preview, print CSS, PDF and DOCX
     └── jd-and-ats.md       # requirement classification, dealbreakers, parser checks
 ```
 
@@ -88,7 +93,7 @@ Reference files load only when a step calls for them, so a session targeting a U
 
 Worth knowing before you install anything into your assistant.
 
-The skill is **nine Markdown files and nothing else**. No executable code, no network calls, no telemetry, no credentials, no dependencies. It cannot read anything you do not paste into the conversation, and it cannot send your resume anywhere. Read every file before installing; that is the point of keeping it plain text.
+The skill is **ten Markdown files and nothing else**. No executable code, no network calls, no telemetry, no credentials, no dependencies. It cannot read anything you do not paste into the conversation, and it cannot send your resume anywhere. Read every file before installing; that is the point of keeping it plain text.
 
 The repo does contain two pieces of code, neither of which ships inside the skill:
 

@@ -4,16 +4,14 @@ Read this at step 2.
 
 ## The target questions
 
-**If they only named a title, or nothing at all:** ask the Target Questions —
-
-1. What roles are you targeting — title and level?
-2. What company stage: seed/Series A, growth-stage, or large enterprise? *(This changes the resume more than most people expect — early-stage screens for range and zero-to-one, enterprise screens for process and stakeholder scale.)*
+**If they only named a title, or nothing at all:** ask the Target Questions, 1. What roles are you targeting, title and level?
+2. What company stage: seed/Series A, growth-stage, or large enterprise? *(This changes the resume more than most people expect, early-stage screens for range and zero-to-one, enterprise screens for process and stakeholder scale.)*
 3. Which of these is closest to the product you want to own? *(list the archetypes below)*
 4. Any specific companies or postings in mind?
 5. Are you targeting the same domain you're in now, or switching?
-6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below — it changes steps 3 through 6.)*
+6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below, it changes steps 3 through 6.)*
 
-### PM Archetypes — different jobs wearing the same title
+### PM Archetypes, different jobs wearing the same title
 
 Identify the target archetype. It determines which evidence gets promoted to the top and which metrics matter. Most PMs are a blend; pick the dominant one and a secondary.
 
@@ -27,7 +25,7 @@ Identify the target archetype. It determines which evidence gets promoted to the
 | **Marketplace** | Two-sided balance | Liquidity, match rate, supply/demand growth, take rate | Supply acquisition, matching logic, trust & safety |
 | **Payments / Fintech / Regulated** | Rigor and risk judgment | Auth rate, fraud/chargeback rate, compliance milestones | Regulatory work, reconciliation, incident handling |
 
-### Level Calibration — what actually separates the rungs
+### Level Calibration, what actually separates the rungs
 
 Recruiters read level from **scope of ownership**, not years of experience. Diagnose honestly and target one rung up at most.
 
@@ -42,18 +40,18 @@ Two of these rows describe people with no PM title, and they are not interchange
 | **Senior PM** | A domain, often with ambiguity and no clear owner | Sets strategy, influences without authority, mentors, handles exec comms |
 | **Lead / Group PM** | Multiple products or PMs | Org-level bets, resource allocation, other PMs' growth |
 
-### Company Archetype — the same PM resume does not work everywhere
+### Company Archetype, the same PM resume does not work everywhere
 
 Country sets the format. **Company type sets the emphasis**, and for PM roles this matters more than most candidates realize. Identify the archetype at step 2 and carry it through step 6.
 
 | Company archetype | What the PM screen rewards | Push to the front | What quietly hurts you |
 |---|---|---|---|
-| **Big tech, FAANG-scale** | Structured impact at scale, cross-org influence, rigor | Metric magnitude, surface area owned, number of teams aligned, crisp scope language | Inflated scope — interview loops are built to catch it. Also the most ATS-strict environment |
+| **Big tech, FAANG-scale** | Structured impact at scale, cross-org influence, rigor | Metric magnitude, surface area owned, number of teams aligned, crisp scope language | Inflated scope, interview loops are built to catch it. Also the most ATS-strict environment |
 | **AI-native growth company** | Velocity, product taste, fluency with model tradeoffs, zero-to-one under ambiguity | Shipping cadence, evals and model decisions, prototypes you built yourself, opinionated calls | Process-heavy vocabulary reads as slow. Do not lead with stakeholder alignment |
 | **Indian startup / high-ownership** | End-to-end ownership, business outcome, resourcefulness | Proximity to revenue, GMV or P&L; running things solo; breadth across product, growth, and ops | "Coordinated with" and "worked closely with" read as passenger language here |
 | **Growth-stage SaaS (Series B–D)** | Doing the job with less support, customer proximity | Discovery volume, roadmap ownership, work with sales and CS, retention and expansion | Over-indexing on big-company process |
 | **Enterprise / regulated** | Process rigor, stakeholder complexity, compliance | Governance, release discipline, stakeholder maps, PO and Scrum vocabulary where relevant | Startup-speed language reads as reckless |
-| **Services / consulting-adjacent** | Client delivery, requirements rigor | Client outcomes, delivery to time and budget, story writing | This is where most Product Owner titles live — see the PO inversion |
+| **Services / consulting-adjacent** | Client delivery, requirements rigor | Client outcomes, delivery to time and budget, story writing | This is where most Product Owner titles live, see the PO inversion |
 | **Seed / Series A** | Range, and whether you'll also do support, sales, and QA | Breadth, things you built with your own hands, founder-adjacent work | Deep specialization reads as narrow |
 
-Same person, same truth, different emphasis. Nothing here licenses a different set of facts — only a different order and a different vocabulary.
+Same person, same truth, different emphasis. Nothing here licenses a different set of facts, only a different order and a different vocabulary.

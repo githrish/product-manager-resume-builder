@@ -1,146 +1,142 @@
-# Templates, length, and formatting
+# Templates, rendering, and the final file
 
-Read this at step 5.
+Read this at step 5, before offering a layout, and again at step 6 when producing the deliverable.
 
-### One-page discipline — what to cut, in order
+## What ATS safety actually forbids
 
-When the material doesn't fit, cut in this sequence. Stop as soon as it fits.
+Get this right or the rest does not matter. Parsers fail on **structure**, not on styling.
 
-1. **Roles older than about ten years** compress into a single `EARLIER EXPERIENCE` line — titles, companies, year ranges, nothing else
-2. **Bullets scale by recency.** Four to five on the current role, three on the previous, one to two on anything older. A twelve-year-old role rarely earns more than a line
-3. **The scope line goes** on older roles; keep it only where the scale isn't obvious from the bullets
-4. **Skills collapse** from three labelled categories to one dense line
-5. **Education loses its detail** — degree, institution, year, and nothing more, unless the market expects a CGPA
-6. **The summary tightens** from three lines to two
+**Breaks parsing:** multiple columns, tables, text boxes, images, icons, logos, charts, headers and footers, text converted to outlines, anything where reading order is not top to bottom.
 
-What never gets cut to save space: a metric that makes a bullet credible, or the scope figure that tells a recruiter how big the job was. If the choice is between losing a number and going to two pages, ask the candidate.
+**Parses fine:** colour, bold and italic, font choice and size, letter spacing, horizontal rules, generous whitespace, links, small caps, uppercase section headers.
 
-### Template Library — pick one at step 5
+So the resume can look designed. It cannot look like a Canva template with a sidebar. Every layout below is single column, real selectable text, top-to-bottom reading order.
 
-Five layouts, all single-column and text-only. **The difference between them is section order and one optional block — nothing decorative.** Anything beyond that (columns, sidebars, rules, icons, colour blocks, skill rating bars) breaks ATS parsing, and the parse is the thing standing between the resume and a human.
+## Show it before they choose
 
-Offer the choice explicitly, with a recommendation. Don't just pick silently.
+**Never ask someone to pick a layout from a description.** Skeletons and bullet lists do not tell anyone what their resume will look like.
 
-| Situation | Template |
+At step 5, render the top third of the page in **every** layout using the candidate's real content, side by side, and let them look. The top third is where the decision lives, since the body is nearly identical across layouts.
+
+Produce this as a single HTML file they can open, or as an inline preview if the interface renders one. Say two things alongside it: that the summary is a draft and not locked, and that anything rendering in sentence case here will be uppercase in the final file.
+
+If the environment truly cannot render anything, say so plainly and paste the top third of each layout as preformatted text. That is a degraded experience, not the intended one.
+
+## The five layouts
+
+All are one page, single column, and use fonts that exist on both macOS and Windows so the PDF and the DOCX look the same. Sizes are for a one-page target; scale the body by half a point either way to fit.
+
+### 1 · Classic
+
+Conservative and quiet. The safest choice for banks, enterprise, consultancies, and any large company with a strict process.
+
+```
+Font          Georgia (headings) + Georgia (body)
+Name          20pt, regular, letterspacing 0.02em
+Section head  10pt, uppercase, letterspacing 0.18em, 1px rule below, full width
+Role line     11pt bold, company and dates on the same line, dates right-aligned
+Context line  9.5pt italic, grey 40%
+Body          10pt, leading 1.35
+Accent         none, black and greys only
+Margins       0.6in
+```
+
+### 2 · Modern
+
+Sans throughout, one accent colour, generous air. The default for startups, product companies, and most PM roles.
+
+```
+Font          Calibri, or Helvetica Neue where available
+Name          22pt, semibold, letterspacing -0.01em, accent colour
+Section head  9.5pt, uppercase, letterspacing 0.2em, accent colour, 1px rule below in 15% accent
+Role line     11pt semibold; dates 10pt regular, grey 45%, right-aligned
+Context line  9.5pt, grey 45%
+Body          10pt, leading 1.4
+Accent        one colour only, a deep blue or slate. Never on body text
+Margins       0.55in
+```
+
+### 3 · Compact
+
+For candidates with a lot of material: eight or more years, or three roles plus projects. Buys roughly six extra lines without dropping to unreadable type.
+
+```
+Font          Calibri
+Name          18pt, semibold
+Section head  9pt, uppercase, letterspacing 0.16em, rule below
+Role line     10.5pt semibold, dates inline after a pipe
+Context line  9pt, grey 45%
+Body          9.5pt, leading 1.28
+Accent        optional, section heads only
+Margins       0.45in
+```
+
+### 4 · Editorial
+
+A large name, a strong rule, and room to breathe. Suits senior and lead candidates whose page has fewer, heavier bullets.
+
+```
+Font          Georgia (name and section heads) + Calibri (body)
+Name          28pt, regular, letterspacing -0.015em
+Contact       9.5pt, directly under the name, pipe separated
+Rule          2px full width under the contact block, accent colour
+Section head  10pt, uppercase, letterspacing 0.2em, no rule
+Role line     11pt bold
+Body          10pt, leading 1.45
+Accent        one colour on the rule and the name only
+Margins       0.65in
+```
+
+### 5 · Minimal
+
+No colour at all. Pure typographic hierarchy. Prints identically anywhere and survives the worst parsers.
+
+```
+Font          Helvetica or Arial
+Name          19pt, bold, uppercase, letterspacing 0.05em
+Section head  9.5pt, bold, uppercase, letterspacing 0.15em, no rule, extra space above
+Role line     10.5pt bold
+Context line  9.5pt, grey 50%
+Body          10pt, leading 1.4
+Accent        none
+Margins       0.6in
+```
+
+## Section order
+
+| Situation | Order |
 |---|---|
-| PM with 2–8 years, standard search | **1 · Standard** |
-| Strong numbers, but company names nobody recognises | **2 · Impact-Forward** |
-| Breaking in, intern, career changer, no PM title | **3 · Projects-First** |
-| Product Analyst, technical PM, data-heavy target | **4 · Analyst** |
-| Senior or Lead who has explicitly opted into two pages | **5 · Two-Page Senior** |
+| PM with PM experience | Contact, summary, experience, skills, education |
+| Switching in from another function | Contact, summary, experience reframed, projects, skills, education |
+| Breaking in early career | Contact, summary, projects, experience, skills, education |
+| Recent graduate | Contact, summary, education, projects, experience, skills |
 
-**1 · Standard** — the default. Works in every market and at every company archetype.
+## Building the final file
 
-```
-FIRST LAST
-City, Country | email@domain.com | +XX XXXXX XXXXX | linkedin.com/in/handle
+The deliverable is a **PDF and a DOCX**, not Markdown. Markdown is a staging format only, and it is shown to the candidate at step 5 as part of the layout review, never handed over as the finished resume.
 
-SUMMARY
-Identity and level. Strongest proof point. What you're targeting.
+**Author in HTML.** It is the only format where line widths can be measured, which is what the 80% line-fill rule needs. Write a single self-contained HTML file with a print stylesheet:
 
-PROFESSIONAL EXPERIENCE
-
-Senior Product Manager | Company | City | 03/2023 - Present
-Scope: what you own, team you work with, user or revenue scale.
-- Achievement bullet
-- Achievement bullet
-- Achievement bullet
-
-Product Manager | Company | City | 06/2021 - 02/2023
-- Achievement bullet
-- Achievement bullet
-
-SKILLS
-Product: ...
-Technical: ...
-Domain: ...
-
-EDUCATION
-Degree, Institution, Year
+```css
+@page { size: A4; margin: 0; }
+body { margin: 0; }
+.page { width: 210mm; min-height: 297mm; padding: <margin from the layout>; }
 ```
 
-**2 · Impact-Forward** — Standard, plus a three-line SELECTED IMPACT block under the summary. Use when the metrics are the strongest asset and the logos are not; it front-loads the numbers into the six-second scan.
+Use A4 for India, the UK, Europe and most of the world. Use US Letter (216mm by 279mm) for the US and Canada.
 
-```
-SUMMARY
-...
+**Then convert.**
 
-SELECTED IMPACT
-- Grew activation 34% across 40K monthly signups by rebuilding onboarding
-- Cut support contact rate 22% by shipping self-serve refunds
-- Took the partner API from 0 to 120 integrations in four quarters
+- **PDF:** print the HTML to PDF from a browser, or use a headless converter if one is available. Keep text selectable. Never export with text as outlines.
+- **DOCX:** produce it from the same content with whatever the environment provides, `pandoc` or a document library. If nothing is available, say so and hand over the HTML and PDF, telling the candidate to open the HTML in Word and save as .docx.
 
-PROFESSIONAL EXPERIENCE
-...
-```
+**If the environment cannot run code at all**, output the complete HTML in a code block with instructions: save as `resume.html`, open in a browser, print to PDF. Do not pretend a Markdown file is the deliverable.
 
-**3 · Projects-First** — PROJECTS moves above PROFESSIONAL EXPERIENCE. The default for breaking-in candidates, interns, and career changers, where the strongest product evidence sits outside the day job.
+## Before handing it over
 
-```
-SUMMARY
-...
-
-PROJECTS
-Project Name | What it is | Link
-- What you built and who used it
-- What moved, or the scale it reached
-
-PROFESSIONAL EXPERIENCE
-[current non-PM role, reframed around product decisions]
-...
-
-EDUCATION
-```
-
-**4 · Analyst** — SKILLS promoted above EXPERIENCE, with the data stack named first. For Product Analyst targets and technical PM roles, where the tooling is the qualification rather than a footnote.
-
-```
-SUMMARY
-...
-
-TECHNICAL SKILLS
-Data: SQL, dbt, Python (pandas)
-Analytics: Amplitude, Mixpanel, Looker
-Experimentation: Statsig, internal A/B framework
-
-PROFESSIONAL EXPERIENCE
-...
-```
-
-**5 · Two-Page Senior** — opens with SELECTED ACHIEVEMENTS, keeps full detail on the last three roles, and compresses everything older into a single EARLIER EXPERIENCE block. **Only offer this after the candidate has explicitly opted into two pages** under the exception above; it is never the default.
-
-```
-SUMMARY
-...
-
-SELECTED ACHIEVEMENTS
-- [Four to five career-defining lines, each with a number]
-
-PROFESSIONAL EXPERIENCE
-[three most recent roles, in full]
-
-EARLIER EXPERIENCE
-Product Manager, Company (2016-2018) · Business Analyst, Company (2014-2016)
-
-SKILLS / EDUCATION
-```
-
-### Handing it over — the formatting spec
-
-The session outputs plain text or Markdown. The candidate pastes it into their editor and applies this, which is the whole of the visual design:
-
-- One font throughout: Calibri, Arial, Georgia, or Times New Roman
-- Body 10–11pt; name 16–18pt; section headers 12–13pt, bold, uppercase
-- Margins 0.5–0.75 inch, single column, left-aligned (never justified)
-- Standard hyphen or bullet characters only
-- Consistent `MM/YYYY` dates
-- Export as a **text-based PDF** — never a scan, never an image, never a design-tool export with text as outlines
-- Verify the parse: copy all the text out of the finished PDF and paste it into a blank document. If the order scrambles or anything vanishes, the ATS sees that scrambled version too
-
-### Formatting rules (ATS-safe)
-
-Single column. No tables, text boxes, headers/footers, images, or photos. Standard section headers ("Professional Experience," not "Where I've Been"). Send a text-based PDF unless the posting asks for .docx. Full spec in the Template Library above.
-
-**Length is one page** — see the one-page discipline above for the cutting order, and the market table at step 2 for the narrow exception and how to offer it. **Personal details** (DOB, nationality, marital status) come from that same market table.
-
-File naming is handled at steps 2 and 6, since the name is per-application.
+- Every bullet fits two rendered lines or fewer
+- Every wrapped bullet fills at least 80% of its last line
+- Numbers and outcome phrases are bold, two spans per bullet at most
+- One page, without shrinking margins below 0.4in or body text below 9.5pt
+- Copy the text out of the finished PDF and paste it into a blank document. That is what the parser sees. If the order scrambles or anything vanishes, fix it before sending
+- File named `First_Last_Resume.pdf`

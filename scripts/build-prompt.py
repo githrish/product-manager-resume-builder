@@ -20,6 +20,7 @@ ORDER = [
     ("from-scratch.md", "Building from scratch"),
     ("bullets.md", "Bullet mechanics"),
     ("templates.md", "Templates, length, and formatting"),
+    ("writing-style.md", "Writing style: sounding like the candidate"),
     ("jd-and-ats.md", "Reading a job description, and surviving the parser"),
 ]
 
@@ -33,6 +34,25 @@ def strip_frontmatter(text):
 def demote(text, levels=1):
     """Push every heading down so appendices nest under the main document."""
     return re.sub(r"^(#{1,5}) ", lambda m: "#" * (len(m.group(1)) + levels) + " ", text, flags=re.M)
+
+def make_zip():
+    """Package the skill folder for upload to assistants that take a ZIP.
+
+    Zips the skill directory itself, so the archive contains
+    product-manager-resume-builder/SKILL.md and .../references/*.md.
+    Zipping the repo root instead is what drops the reference files.
+    """
+    import zipfile
+    out = ROOT / "dist" / "product-manager-resume-builder.zip"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(SKILL.rglob("*.md")):
+            z.write(f, f.relative_to(SKILL.parent))
+    names = zipfile.ZipFile(out).namelist()
+    assert any(n.endswith("SKILL.md") for n in names), "SKILL.md missing from archive"
+    assert sum("/references/" in n for n in names) >= 8, "reference files missing from archive"
+    print(f"wrote {out.relative_to(ROOT)} ({len(names)} files)")
+
 
 def main():
     skill = strip_frontmatter((SKILL / "SKILL.md").read_text(encoding="utf-8"))
@@ -66,6 +86,7 @@ def main():
     text = "\n".join(parts).rstrip() + "\n"
     OUT.write_text(text, encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)} ({len(text):,} chars, {text.count(chr(10)) + 1:,} lines)")
+    make_zip()
 
 if __name__ == "__main__":
     main()
