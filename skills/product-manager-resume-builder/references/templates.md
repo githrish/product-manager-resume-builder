@@ -148,21 +148,25 @@ Accent        none
 Margins       46px / 52px
 ```
 
-### 5 · Bold
+### 5 · Banner
 
-The heaviest of the five. Centred name with the current title on its own line beneath it, uppercase ruled sections, and bold on every company and role line, so the page scans in a single pass. Suits a candidate whose titles and employers are the strongest thing on the page, and it is the natural partner for the multi-role structure because nested role lines need weight to stay legible.
+The only look in the set that uses a block of colour, and the only one that states a position before the reader reaches the summary. Centred name, centred contact, then a thin filled bar carrying three or four short phrases: the role, one or two specialisms, and the domain. Section heads sit on a heavy rule.
 
 ```
-Font          Arial or Helvetica
-Name          24px, bold, uppercase, centred
-Title line    15.5px, bold, centred, directly under the name
-Section head  12.6px, bold, uppercase, rule below
-Body          12.8px, leading 1.42
-Accent        none
+Font          Calibri or Carlito
+Name          30px, bold, centred
+Contact       12.8px, centred
+Bar           #6D9EEB fill, white bold 11.6px, 16px tall, full width
+Section head  12.4px, bold, 2px rule below
+Body          13px, leading 1.40
 Margins       44px / 46px
 ```
 
-Editorial, a large serif name over an accent rule, was dropped in its favour. It read as a variation on Modern rather than a real alternative.
+**Writing the bar.** Three or four phrases separated by pipes, drawn from the target lock at step 2, and nothing else. The role they are applying for, one or two things they are actually good at, and the domain: `Product Manager | Monetization & Growth | 0 to 1 Execution | Consumer Tech`. It is the first thing read and the first thing a keyword parser hits, so it has to be true. Never put a seniority in it they have not held, never let it run to a second line, and never write a sentence there. If a candidate cannot fill it without inflating, use a different look rather than a weaker bar.
+
+**The one thing to warn them about.** White on `#6D9EEB` is about 2.6:1, which is below every contrast threshold, and it goes grey-on-grey if anyone prints in black and white. It is what the reference resume used and it looks right on screen, so it stays the default, but tell the candidate once and offer `#1F4E79` text on the same fill, which reaches about 4.4:1 and keeps the palette.
+
+Editorial, a large serif name over an accent rule, was dropped along the way. It read as a variation on Modern rather than a real alternative.
 
 ## Building the final file
 

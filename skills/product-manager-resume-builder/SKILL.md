@@ -147,7 +147,7 @@ Three rules on every bullet, checked before you show it:
 
 - **Two rendered lines maximum.** Three-line bullets get skipped. If it needs three, it holds two ideas.
 - **No trailing participle clauses.** A comma followed by an "-ing" word is the strongest tell that a machine wrote it.
-- **Bold the number and the two or three words naming what it moved.** Two bold spans per bullet at most. No number usually means no bold.
+- **Banner the number and the two or three words naming what it moved.** Two bold spans per bullet at most. No number usually means no bold.
 
 Line fill cannot be checked yet, because Markdown has no line width. That happens at step 5 once the layout exists.
 
