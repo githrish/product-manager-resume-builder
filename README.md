@@ -63,7 +63,7 @@ Then restart your assistant and say what you want:
 ```
 Help me rebuild my PM resume for a senior product role
 I'm a support lead trying to break into product and I don't have a resume yet
-Tailor my resume to this job description
+My resume gets no callbacks and I cannot tell why
 ```
 
 ## What is inside
@@ -82,7 +82,7 @@ skills/product-manager-resume-builder/
     └── jd-and-ats.md       # requirement classification, dealbreakers, parser checks
 ```
 
-Reference files load only when a phase calls for them, so a session tailoring to a US posting never pulls Japanese conventions into context.
+Reference files load only when a step calls for them, so a session targeting a US role never pulls Japanese conventions into context.
 
 ## What is in this repo, and what it does not do
 
