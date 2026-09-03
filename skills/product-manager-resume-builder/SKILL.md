@@ -157,7 +157,7 @@ Line fill cannot be checked yet, because Markdown has no line width. That happen
 
 It is also the source of truth for everything that comes after. When the candidate later trims it for a specific posting, they work from a copy and leave the master intact. Editing a trimmed copy and then trimming that again is how a resume drifts away from what actually happened.
 
-Read `references/templates.md` for the five layouts, the rendering pipeline, and the formatting spec.
+Read `references/templates.md` for the two structures, the four treatments, the rendering pipeline, and the formatting spec.
 
 **Pick the structure yourself, then let them pick the look.** Step 2 already told you whether they hold a PM title, are switching in, or are early career, and that decides section order. Choose experience-first or education-first from the table in that reference, state which and why in one line, and let them override.
 

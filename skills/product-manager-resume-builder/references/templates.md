@@ -169,7 +169,7 @@ Never lengthen sentences to fill a page. A short bullet with a number beats a lo
 
 When the content overruns, reverse the order: tighten spacing first, shorten bullets second, and only cut a bullet as a last resort.
 
-Expect to tune spacing per layout. Identical content ran 31 to 62px long across these five layouts before adjustment, because their type scales differ. Each layout needs its own section gaps and bullet spacing to land on the same line.
+Expect to tune spacing per treatment. Identical content ran 31 to 62px long across the treatments before adjustment, because their type scales differ. Each needs its own section gaps and bullet spacing to land on the same line.
 
 ## Before handing it over
 

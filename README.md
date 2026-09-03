@@ -18,7 +18,7 @@ Seven steps. It tells you where you are at each one, and nothing gets written un
 | 2 | Target lock | Name the roles, the market, and the kind of company |
 | 3 | Excavation | Answer questions about your work, one role at a time |
 | 4 | Bullets | Review before and after on every rewrite |
-| 5 | Assembly | Choose a layout from five options |
+| 5 | Assembly | Confirm the structure it picked, then choose a look |
 | 6 | Audit and build | Get the failure list, the estimates to defend, and the finished PDF and DOCX |
 
 Step 1 forks. If you have a resume, it diagnoses it and asks what you have done since. If you do not, a five-pass protocol builds from nothing. The layout choice waits until step 5 on purpose, because which one wins depends on what the interview turns up.
@@ -83,7 +83,7 @@ skills/product-manager-resume-builder/
     ├── breaking-in.md      # early-career entry targets, transferable evidence map
     ├── bullets.md          # formula, ownership ladder, metrics, anti-patterns
     ├── writing-style.md    # AI tells to avoid, bullet length, line fill, bolding
-    ├── templates.md        # five layouts, visual preview, print CSS, PDF and DOCX
+    ├── templates.md        # two structures, four treatments, print CSS, PDF and DOCX
     └── jd-and-ats.md       # requirement classification, dealbreakers, parser checks
 ```
 
