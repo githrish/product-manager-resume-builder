@@ -138,11 +138,14 @@ A resume that stops two thirds down the page reads as thin, whatever the content
 
 Measure it as `content bottom` against `page height minus bottom margin`. Do not measure against the page height itself, which ignores the margin and lets the text run into it.
 
-When there is space left over, in this order:
+When there is space left over, in this order. The order is the point: the first move adds evidence, the last only adds air.
 
-1. **Restore something you cut.** A bullet dropped earlier for space is better than any amount of extra leading.
-2. **Expand existing bullets** from the one-line window into the two-line window, using real detail the candidate gave you.
-3. **Open up the spacing.** Section gaps and leading, in small increments.
+1. **Restore something you cut.** A bullet dropped earlier for space beats any amount of extra leading.
+2. **Ask for one more achievement.** Go back to the candidate rather than stretching what is already on the page.
+3. **Expand a bullet from one line to two**, but only where a real detail was left out. Never to reach a length.
+4. **Open up the spacing.** Section gaps and leading, in small increments.
+
+Never lengthen sentences to fill a page. A short bullet with a number beats a long one padded to the margin, and the padding is visible to anyone who reads carefully.
 
 When the content overruns, reverse the order: tighten spacing first, shorten bullets second, and only cut a bullet as a last resort.
 
