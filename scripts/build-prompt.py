@@ -45,9 +45,15 @@ def make_zip():
     import zipfile
     out = ROOT / "dist" / "product-manager-resume-builder.zip"
     out.parent.mkdir(parents=True, exist_ok=True)
+    # Fixed timestamps make the archive byte-identical for identical content.
+    # Without this the zip differs on every build and, being binary, conflicts
+    # whenever CI and a local build touch it at the same time.
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(SKILL.rglob("*.md")):
-            z.write(f, f.relative_to(SKILL.parent))
+            info = zipfile.ZipInfo(str(f.relative_to(SKILL.parent)), date_time=(1980, 1, 1, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            z.writestr(info, f.read_bytes())
     names = zipfile.ZipFile(out).namelist()
     assert any(n.endswith("SKILL.md") for n in names), "SKILL.md missing from archive"
     assert sum("/references/" in n for n in names) >= 8, "reference files missing from archive"

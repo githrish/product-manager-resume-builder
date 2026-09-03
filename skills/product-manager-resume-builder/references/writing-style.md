@@ -46,6 +46,24 @@ Two hard rules, both about how the page looks before anyone reads it.
 
 This can only be enforced against a rendered document, not against Markdown, since Markdown has no line width. Measure at step 5 when the layout exists, and again after any edit.
 
+### How to hit it, rather than guess at it
+
+Measure the chosen layout's **characters per line** first. Render one long bullet, count its characters, divide by the number of visual lines it occupies. Call that `c`.
+
+Then every bullet must land in one of two windows:
+
+- **One line:** at most `0.95 c` characters
+- **Two lines:** between `1.82 c` and `1.99 c` characters
+
+Anything between those two windows is the dead zone. A bullet at `1.4 c` wraps to two lines and leaves the second one 40% full, which is the exact defect this rule exists to prevent.
+
+Write to the character count. It is faster and far more reliable than writing a bullet, rendering it, and nudging words until it looks right.
+
+Two consequences worth knowing:
+
+- **The window is layout-specific.** A serif at 10pt holds around 107 characters per line; a narrow sans like Calibri holds around 120 in the same measure. The same sentence that fills two lines perfectly in one layout leaves an orphan in the other. Retune whenever the layout changes.
+- **Overshooting is worse than undershooting.** A bullet slightly too long spills to three lines with a near-empty tail. A bullet slightly too short simply sits on one line, which is always acceptable.
+
 ## Bolding for skimmability
 
 Recruiters scan before they read. Bold gives them landing points.

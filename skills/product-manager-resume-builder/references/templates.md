@@ -132,6 +132,22 @@ Use A4 for India, the UK, Europe and most of the world. Use US Letter (216mm by 
 
 **If the environment cannot run code at all**, output the complete HTML in a code block with instructions: save as `resume.html`, open in a browser, print to PDF. Do not pretend a Markdown file is the deliverable.
 
+## Filling the page top to bottom
+
+A resume that stops two thirds down the page reads as thin, whatever the content says. Target the content ending within about 10px of the bottom margin, so the text block is genuinely full.
+
+Measure it as `content bottom` against `page height minus bottom margin`. Do not measure against the page height itself, which ignores the margin and lets the text run into it.
+
+When there is space left over, in this order:
+
+1. **Restore something you cut.** A bullet dropped earlier for space is better than any amount of extra leading.
+2. **Expand existing bullets** from the one-line window into the two-line window, using real detail the candidate gave you.
+3. **Open up the spacing.** Section gaps and leading, in small increments.
+
+When the content overruns, reverse the order: tighten spacing first, shorten bullets second, and only cut a bullet as a last resort.
+
+Expect to tune spacing per layout. Identical content ran 31 to 62px long across these five layouts before adjustment, because their type scales differ. Each layout needs its own section gaps and bullet spacing to land on the same line.
+
 ## Before handing it over
 
 - Every bullet fits two rendered lines or fewer
