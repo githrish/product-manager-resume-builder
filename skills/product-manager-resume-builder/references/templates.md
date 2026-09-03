@@ -48,16 +48,6 @@ Three things change beyond the order:
 
 Summary is optional here. A student with three lines of genuine positioning should keep it; one padding it with adjectives should drop it and use the space on projects.
 
-## Show it before they choose
-
-**Never ask someone to pick a layout from a description.** Skeletons and bullet lists do not tell anyone what their resume will look like.
-
-Render the top third of the page in **every** treatment using the candidate's real content and the structure you selected, side by side, and let them look. Produce it as a single HTML file they can open, or as an inline preview if the interface renders one.
-
-Say two things alongside it: that the summary is a draft and not locked, and that anything rendering in sentence case here will be uppercase in the final file.
-
-If the environment truly cannot render anything, say so plainly and paste the top third of each as preformatted text. That is a degraded experience, not the intended one.
-
 ### Multi-role
 
 For a candidate promoted inside one company, or whose work is better told by project than by job title. Common in PM: APM to PM at the same employer, or three years across four product areas under one heading.
@@ -75,6 +65,16 @@ What changes:
 - **Additional Information** replaces the skills rows: technical skills, certifications and languages as labelled lines.
 
 Reach for this only when there is real progression or genuine project grouping to show. With one role at one company it adds structure and says nothing.
+
+## Show it before they choose
+
+**Never ask someone to pick a layout from a description.** Skeletons and bullet lists do not tell anyone what their resume will look like.
+
+Render the top third of the page in **every** treatment using the candidate's real content and the structure you selected, side by side, and let them look. Produce it as a single HTML file they can open, or as an inline preview if the interface renders one.
+
+Say two things alongside it: that the summary is a draft and not locked, and that anything rendering in sentence case here will be uppercase in the final file.
+
+If the environment truly cannot render anything, say so plainly and paste the top third of each as preformatted text. That is a degraded experience, not the intended one.
 
 ## Which structure for whom
 
