@@ -43,7 +43,7 @@ Cover, briefly:
 - **How it works.** You interview them first. Nothing gets written until step 4.
 - **How long.** Roughly 30 to 45 minutes of back and forth. They can stop at any step and resume later.
 - **What to have ready.** Their current resume if one exists, and any job description they are targeting.
-- **That a layout choice is coming at step 5**, where they see their own content rendered in all five before choosing. It depends on what the interview turns up, which is why it is not first.
+- **That a layout choice is coming at step 5**, where they see their own content rendered in each option before choosing. It depends on what the interview turns up, which is why it is not first.
 - **Where it stops.** The session produces the master resume and ends there. Trimming it for a specific posting is a separate job, done later.
 
 Then show the map:
@@ -54,7 +54,7 @@ Then show the map:
 | 2 | Target lock | Name the roles, market, and company type |
 | 3 | Excavation | Answer questions about their work |
 | 4 | Bullets | Review before and after on every rewrite |
-| 5 | Assembly | Choose a layout from five options |
+| 5 | Assembly | Confirm the structure, then choose a look |
 | 6 | Audit and build | Receive the failure list, the estimates to defend, and the finished PDF and DOCX |
 
 Close the message with the one question that decides the route, and wait:
@@ -159,7 +159,9 @@ It is also the source of truth for everything that comes after. When the candida
 
 Read `references/templates.md` for the five layouts, the rendering pipeline, and the formatting spec.
 
-**Show the layouts, never describe them.** Render the top third of the page in all five using the candidate's real content, side by side, as a single HTML file they can open. Nobody can choose a layout from a skeleton, and asking them to is how this step fails. Give a recommendation alongside, and say which of their answers drove it.
+**Pick the structure yourself, then let them pick the look.** Step 2 already told you whether they hold a PM title, are switching in, or are early career, and that decides section order. Choose experience-first or education-first from the table in that reference, state which and why in one line, and let them override.
+
+**Then show the treatments, never describe them.** Render the top third in all four using the candidate's real content and the structure you chose, side by side, as a single HTML file they can open. Nobody can pick a layout from a skeleton, and asking them to is how this step fails.
 
 Once they pick, this is also where the Markdown draft belongs: show the full content in the chosen layout so they can review the actual wording and emphasis before you build the file. Markdown is a staging step here, not a deliverable.
 
@@ -246,5 +248,5 @@ Read these when the phase calls for them, not up front.
 | `references/breaking-in.md` | Step 2 onward, early career | Six entry targets, transferable evidence map, PO inversion, Title Honesty Rule, Gap-Filling Sprint |
 | `references/jd-and-ats.md` | Steps 2 and 6 | Reading a posting to set the target, and the ATS parser checks |
 | `references/bullets.md` | Step 4 | Bullet formula, ownership ladder, metric taxonomy, Estimation Protocol, anti-patterns |
-| `references/templates.md` | Steps 5 and 6 | Five layouts, the visual preview, print CSS, PDF and DOCX routes |
+| `references/templates.md` | Steps 5 and 6 | Two structures, four treatments, the visual preview, print CSS, PDF and DOCX routes |
 | `references/writing-style.md` | Steps 4 and 6 | AI tells to avoid, bullet length, line fill, bolding |

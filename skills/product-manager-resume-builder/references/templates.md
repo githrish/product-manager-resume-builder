@@ -12,104 +12,124 @@ Get this right or the rest does not matter. Parsers fail on **structure**, not o
 
 So the resume can look designed. It cannot look like a Canva template with a sidebar. Every layout below is single column, real selectable text, top-to-bottom reading order.
 
+## Two decisions, not one
+
+Step 5 has a **structure** and a **treatment**, and they are decided by different people.
+
+**You pick the structure**, from what step 2 established. The candidate has the least information about this and the most to lose by guessing: someone breaking into product who picks an experience-first layout buries the projects that are their whole case. State which structure you chose and why, in one line, and let them override.
+
+**They pick the treatment.** Once the structure is right, what remains is typography and density, which is a matter of taste and theirs to decide.
+
+## The structures
+
+### Experience-first
+
+The default. For anyone with professional experience worth leading on, including switchers coming in from another function.
+
+```
+Contact  →  Summary  →  Experience  →  Skills  →  Education
+```
+
+Switchers use the same shape with the bullets reframed around product decisions, and a Projects section after Experience when their strongest evidence sits outside the day job.
+
+### Education-first
+
+For students, recent graduates, and anyone with under about two years of work. Education carries real weight early on and then stops mattering almost entirely, so it leads here and nowhere else.
+
+```
+Contact  →  Education  →  Experience  →  Projects  →  Skills
+```
+
+Three things change beyond the order:
+
+- **Education carries detail** it would never carry later: degree and institution, graduation year, GPA or CGPA where the market expects it, honours, and relevant coursework when the role is technical. Two to four lines, not one.
+- **Projects becomes a real section**, each with a name, a date, and one or two bullets. For someone with no PM title this is often the strongest evidence on the page, and it must not sit below a thin work section.
+- **The company gets a descriptor**, inline and in parentheses: `NORTHWIND (8-person venture-backed payments startup)`. An early-career candidate's employers are usually unknown to the reader, and the descriptor supplies the scale their bullets are measured against.
+
+Summary is optional here. A student with three lines of genuine positioning should keep it; one padding it with adjectives should drop it and use the space on projects.
+
 ## Show it before they choose
 
 **Never ask someone to pick a layout from a description.** Skeletons and bullet lists do not tell anyone what their resume will look like.
 
-At step 5, render the top third of the page in **every** layout using the candidate's real content, side by side, and let them look. The top third is where the decision lives, since the body is nearly identical across layouts.
+Render the top third of the page in **every** treatment using the candidate's real content and the structure you selected, side by side, and let them look. Produce it as a single HTML file they can open, or as an inline preview if the interface renders one.
 
-Produce this as a single HTML file they can open, or as an inline preview if the interface renders one. Say two things alongside it: that the summary is a draft and not locked, and that anything rendering in sentence case here will be uppercase in the final file.
+Say two things alongside it: that the summary is a draft and not locked, and that anything rendering in sentence case here will be uppercase in the final file.
 
-If the environment truly cannot render anything, say so plainly and paste the top third of each layout as preformatted text. That is a degraded experience, not the intended one.
+If the environment truly cannot render anything, say so plainly and paste the top third of each as preformatted text. That is a degraded experience, not the intended one.
 
-## The five layouts
+## Which structure for whom
 
-All are one page, single column, and use fonts that exist on both macOS and Windows so the PDF and the DOCX look the same. Sizes are for a one-page target; scale the body by half a point either way to fit.
+| Step 2 track | Structure | Why |
+|---|---|---|
+| Holds a PM title | Experience-first | The roles are the case |
+| Switching in, 3+ years elsewhere | Experience-first, bullets reframed, Projects after Experience | Seniority is real and must not be buried behind education |
+| Early career, under 2 years | Education-first | Education and projects are the strongest evidence available |
+| Student or recent graduate | Education-first | Same, with coursework and honours carrying weight they never will again |
+
+When a candidate sits on the boundary, ask rather than guess: "Is your degree or your work the stronger part of your case right now?"
+
+## The four treatments
+
+Every one is single column with real selectable text. What varies is typeface, whether section headers are ruled, and density. All of them render either structure.
 
 ### 1 · Classic
 
-Conservative and quiet. The safest choice for banks, enterprise, consultancies, and any large company with a strict process.
+Serif throughout, ruled headers. The safest choice at banks, consultancies, and anywhere the process is old and strict.
 
 ```
-Font          Georgia (headings) + Georgia (body)
-Name          20pt, regular, letterspacing 0.02em
-Section head  10pt, uppercase, letterspacing 0.18em, 1px rule below, full width
-Role line     11pt bold, company and dates on the same line, dates right-aligned
-Context line  9.5pt italic, grey 40%
-Body          10pt, leading 1.35
-Accent         none, black and greys only
-Margins       0.6in
+Font          Georgia
+Name          27px, regular, letterspacing 0.02em
+Section head  12.8px, uppercase, letterspacing 0.18em, 1px rule below
+Role line     14.4px bold, dates right-aligned
+Context       12.4px, grey 43%
+Body          12.9px, leading 1.43
+Accent        none
+Margins       46px vertical, 43px horizontal
 ```
 
 ### 2 · Modern
 
-Sans throughout, one accent colour, generous air. The default for startups, product companies, and most PM roles.
+Sans with section headers in a muted blue, the only colour on the page. The default for product roles.
 
 ```
-Font          Calibri, or Helvetica Neue where available
-Name          22pt, semibold, letterspacing -0.01em, accent colour
-Section head  9.5pt, uppercase, letterspacing 0.2em, accent colour, 1px rule below in 15% accent
-Role line     11pt semibold; dates 10pt regular, grey 45%, right-aligned
-Context line  9.5pt, grey 45%
-Body          10pt, leading 1.4
-Accent        one colour only, a deep blue or slate. Never on body text
-Margins       0.55in
+Font          Calibri, or Carlito where Calibri is absent
+Name          29px, semibold, letterspacing -0.01em
+Section head  12.4px, uppercase, letterspacing 0.2em, #3A6EA5, rule below at 28% tint
+Role line     14.4px semibold, dates right in grey
+Body          13.3px, leading 1.41
+Accent        #3A6EA5, headers only, never on body text
+Margins       46px / 48px
 ```
 
-### 3 · Compact
+### 3 · Structured
 
-For candidates with a lot of material: eight or more years, or three roles plus projects. Buys roughly six extra lines without dropping to unreadable type.
-
-```
-Font          Calibri
-Name          18pt, semibold
-Section head  9pt, uppercase, letterspacing 0.16em, rule below
-Role line     10.5pt semibold, dates inline after a pipe
-Context line  9pt, grey 45%
-Body          9.5pt, leading 1.28
-Accent        optional, section heads only
-Margins       0.45in
-```
-
-### 4 · Editorial
-
-A large name, a strong rule, and room to breathe. Suits senior and lead candidates whose page has fewer, heavier bullets.
+The LaTeX shape most candidates recognise from Overleaf: centred header, small-caps rules, and a two-row entry.
 
 ```
-Font          Georgia (name and section heads) + Calibri (body)
-Name          28pt, regular, letterspacing -0.015em
-Contact       9.5pt, directly under the name, pipe separated
-Rule          2px full width under the contact block, accent colour
-Section head  10pt, uppercase, letterspacing 0.2em, no rule
-Role line     11pt bold
-Body          10pt, leading 1.45
-Accent        one colour on the rule and the name only
-Margins       0.65in
-```
-
-### 5 · Minimal
-
-No colour at all. Pure typographic hierarchy. Prints identically anywhere and survives the worst parsers.
-
-```
-Font          Helvetica or Arial
-Name          19pt, bold, uppercase, letterspacing 0.05em
-Section head  9.5pt, bold, uppercase, letterspacing 0.15em, no rule, extra space above
-Role line     10.5pt bold
-Context line  9.5pt, grey 50%
-Body          10pt, leading 1.4
+Font          Times New Roman
+Name          31px, regular, centred; contact centred beneath, pipe separated
+Section head  13.4px, small-caps, 1px rule below
+Entry         role bold left with dates right, then company italic left with location right
+Body          13.2px, leading 1.38
 Accent        none
-Margins       0.6in
+Margins       44px / 46px
 ```
 
-## Section order
+### 4 · Compact
 
-| Situation | Order |
-|---|---|
-| PM with PM experience | Contact, summary, experience, skills, education |
-| Switching in from another function | Contact, summary, experience reframed, projects, skills, education |
-| Breaking in early career | Contact, summary, projects, experience, skills, education |
-| Recent graduate | Contact, summary, education, projects, experience, skills |
+Tightened margins and type for candidates carrying eight or more years, or a long projects section.
+
+```
+Font          Calibri or Carlito
+Name          25px, semibold
+Section head  12.2px, uppercase, letterspacing 0.16em, rule below
+Body          13.6px, leading 1.39
+Accent        none
+Margins       46px / 52px
+```
+
+Editorial, a large serif name over an accent rule, was dropped. It read as a fifth typographic variation of the same structure rather than a real choice, and the space was better spent on the education-first structure.
 
 ## Building the final file
 
