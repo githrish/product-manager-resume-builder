@@ -88,7 +88,7 @@ If the environment truly cannot render anything, say so plainly and paste the to
 
 When a candidate sits on the boundary, ask rather than guess: "Is your degree or your work the stronger part of your case right now?"
 
-## The four treatments
+## The five treatments
 
 Every one is single column with real selectable text. What varies is typeface, whether section headers are ruled, and density. All of them render either structure.
 
@@ -148,7 +148,21 @@ Accent        none
 Margins       46px / 52px
 ```
 
-Editorial, a large serif name over an accent rule, was dropped. It read as a fifth typographic variation of the same structure rather than a real choice, and the space was better spent on the education-first structure.
+### 5 · Bold
+
+The heaviest of the five. Centred name with the current title on its own line beneath it, uppercase ruled sections, and bold on every company and role line, so the page scans in a single pass. Suits a candidate whose titles and employers are the strongest thing on the page, and it is the natural partner for the multi-role structure because nested role lines need weight to stay legible.
+
+```
+Font          Arial or Helvetica
+Name          24px, bold, uppercase, centred
+Title line    15.5px, bold, centred, directly under the name
+Section head  12.6px, bold, uppercase, rule below
+Body          12.8px, leading 1.42
+Accent        none
+Margins       44px / 46px
+```
+
+Editorial, a large serif name over an accent rule, was dropped in its favour. It read as a variation on Modern rather than a real alternative.
 
 ## Building the final file
 

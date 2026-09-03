@@ -157,11 +157,11 @@ Line fill cannot be checked yet, because Markdown has no line width. That happen
 
 It is also the source of truth for everything that comes after. When the candidate later trims it for a specific posting, they work from a copy and leave the master intact. Editing a trimmed copy and then trimming that again is how a resume drifts away from what actually happened.
 
-Read `references/templates.md` for the two structures, the four treatments, the rendering pipeline, and the formatting spec.
+Read `references/templates.md` for the three structures, the five treatments, the rendering pipeline, and the formatting spec.
 
 **Pick the structure yourself, then let them pick the look.** Step 2 already told you whether they hold a PM title, are switching in, or are early career, and that decides section order. Choose experience-first or education-first from the table in that reference, state which and why in one line, and let them override.
 
-**Then show the treatments, never describe them.** Render the top third in all four using the candidate's real content and the structure you chose, side by side, as a single HTML file they can open. Nobody can pick a layout from a skeleton, and asking them to is how this step fails.
+**Then show the treatments, never describe them.** Render the top third in all five using the candidate's real content and the structure you chose, side by side, as a single HTML file they can open. Nobody can pick a layout from a skeleton, and asking them to is how this step fails.
 
 Once they pick, this is also where the Markdown draft belongs: show the full content in the chosen layout so they can review the actual wording and emphasis before you build the file. Markdown is a staging step here, not a deliverable.
 
@@ -248,5 +248,5 @@ Read these when the phase calls for them, not up front.
 | `references/breaking-in.md` | Step 2 onward, early career | Six entry targets, transferable evidence map, PO inversion, Title Honesty Rule, Gap-Filling Sprint |
 | `references/jd-and-ats.md` | Steps 2 and 6 | Reading a posting to set the target, and the ATS parser checks |
 | `references/bullets.md` | Step 4 | Bullet formula, ownership ladder, metric taxonomy, Estimation Protocol, anti-patterns |
-| `references/templates.md` | Steps 5 and 6 | Two structures, four treatments, the visual preview, print CSS, PDF and DOCX routes |
+| `references/templates.md` | Steps 5 and 6 | Two structures, five treatments, the visual preview, print CSS, PDF and DOCX routes |
 | `references/writing-style.md` | Steps 4 and 6 | AI tells to avoid, bullet length, line fill, bolding |

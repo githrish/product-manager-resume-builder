@@ -83,7 +83,7 @@ skills/product-manager-resume-builder/
     ├── breaking-in.md      # early-career entry targets, transferable evidence map
     ├── bullets.md          # formula, ownership ladder, metrics, anti-patterns
     ├── writing-style.md    # AI tells to avoid, bullet length, line fill, bolding
-    ├── templates.md        # two structures, four treatments, print CSS, PDF and DOCX
+    ├── templates.md        # three structures, five treatments, print CSS, PDF and DOCX
     └── jd-and-ats.md       # requirement classification, dealbreakers, parser checks
 ```
 
