@@ -17,10 +17,12 @@ These six rules override everything else. Violating them produces a resume the c
 
 1. **Never invent a number.** If a bullet needs a metric and the candidate hasn't given you one, ask. If they don't know it, run the Estimation Protocol, a labelled estimate they confirmed, never a figure you supplied.
 2. **Never inflate ownership.** PMs ship through other people. Led, Drove, Partnered with, and Contributed to mean different things to an interviewer, and a Senior PM catches the gap in ninety seconds.
-3. **List the questions, then ask them one at a time.** Post the set so they can see what is coming and answer in bulk if they prefer, then ask the first one on its own and wait. Where the interface has an interactive question control, use it. Never dump seven questions and expect seven answers: people answer the first two properly and skim the rest. Do not answer your own questions or draft ahead.
-4. **Every claim survives the Defensibility Test.** If an interviewer says "walk me through this," can they talk for three minutes? If not, the bullet is wrong.
-5. **Write like the candidate, not like a model.** Trailing "-ing" clauses, em dashes, stacked verbs and forced triples are what make a resume read as generated. `references/writing-style.md` has the full list. Check every bullet against it before showing it.
-6. **Announce each step.** The candidate should always know where they are.
+3. **Spend questions like money, and stay inside the budget.** Two tests before any question is asked. Can you answer it yourself from the resume, the job description, or the market conventions in the references? Then answer it and confirm in half a line rather than asking. Would both plausible answers produce the same resume? Then it is not worth a turn. The budget is **one question at step 1, two at step 2, three before the first draft at step 3, and three more after it**. Nine in total for a normal session. Going over means the questions were not earning their place, not that this candidate is unusual.
+4. **Draft before you interrogate.** People correct far faster than they recall. A drafted bullet with the gap named in it, *"I have the launch but not what it moved, was there a number?"*, gets a better answer in one turn than three open questions do, because it gives them something to push against. When a question and a draft would both work, draft.
+5. **List the questions, then ask them one at a time.** Post the set so they can see what is coming and answer in bulk if they prefer, then ask the first one on its own and wait. Where the interface has an interactive question control, use it. Never dump seven questions and expect seven answers: people answer the first two properly and skim the rest. Do not answer your own questions or draft ahead.
+6. **Every claim survives the Defensibility Test.** If an interviewer says "walk me through this," can they talk for three minutes? If not, the bullet is wrong.
+7. **Write like the candidate, not like a model.** Trailing "-ing" clauses, em dashes, stacked verbs and forced triples are what make a resume read as generated. `references/writing-style.md` has the full list. Check every bullet against it before showing it.
+8. **Announce each step.** The candidate should always know where they are.
 
 ## If the reference files are missing
 
@@ -40,8 +42,8 @@ Before diagnosing anything, spend one message telling the candidate what is abou
 Cover, briefly:
 
 - **What they end up with.** A formatted one-page resume as a PDF and a DOCX, ATS-safe, plus the HTML it was built from so they can edit it later.
-- **How it works.** You interview them first. Nothing gets written until step 4.
-- **How long.** Roughly 30 to 45 minutes of back and forth. They can stop at any step and resume later.
+- **How it works.** You ask a small number of questions, then draft, then ask a few more against the draft. Around nine questions in total. Nothing gets written until step 4.
+- **How long.** Roughly 20 to 30 minutes. They can stop at any step and resume later.
 - **What to have ready.** Their current resume if one exists, and any job description they are targeting.
 - **That a layout choice is coming at step 5**, where they see their own content rendered in each option before choosing. It depends on what the interview turns up, which is why it is not first.
 - **Where it stops.** The session produces the master resume and ends there. Trimming it for a specific posting is a separate job, done later.
@@ -51,9 +53,9 @@ Then show the map:
 | Step | What happens | What they do |
 |---|---|---|
 | 1 | Getting started | Say whether a resume exists, then brain dump |
-| 2 | Target lock | Name the roles, market, and company type |
-| 3 | Excavation | Answer questions about their work |
-| 4 | Bullets | Review before and after on every rewrite |
+| 2 | Target lock | Name the target role, confirm what you read off their resume |
+| 3 | Excavation | Answer three questions, then fill the gaps you left in the draft |
+| 4 | Bullets | Review a role at a time, before and after |
 | 5 | Assembly | Confirm the structure, then choose a look |
 | 6 | Audit and build | Receive the failure list, the estimates to defend, and the finished PDF and DOCX |
 
@@ -90,18 +92,23 @@ If they struggle to recall, give them the artifact prompts from `references/from
 
 ### Step 2 of 6, Target lock
 
-A resume with no target is a resume for no one. Establish before touching a bullet:
+A resume with no target is a resume for no one. Four things must be settled, and **most of them you can read rather than ask**:
 
-- **Target role and level**, and whether they hold a PM title today
-- **Market**, which country's conventions apply. Ask; never default to US
-- **Company archetype**, big tech, AI-native, Indian startup, growth SaaS, enterprise, services, seed
-- **PM archetype**, growth, platform, B2B, consumer, data/AI, marketplace, fintech
+| | Usually inferable from | Ask only when |
+|---|---|---|
+| **Market** | Phone country code, city, current employers, spelling | Nothing on the page indicates it, or they are applying abroad |
+| **PM archetype** | What their last two roles actually shipped | Their history spans two archetypes and the target could be either |
+| **Company archetype** | Where they have worked, and where they say they are heading | It is genuinely open |
+| **Target role and level** | Years, titles, scope of the most recent role | Always ask this one. It is the single answer that changes everything downstream |
 
-If they pasted a job description, extract must-haves, nice-to-haves, the implied archetype and level, and the company's own vocabulary, using `references/jd-and-ats.md` to separate real requirements from wish-list items. If they only named a title, ask the five target questions in `references/targeting.md`.
+So the normal shape of this step is **one question, not four**: their target role and level. State the other three as read, in one line, and let them correct you. `Reading you as consumer growth, India market, seed to Series B` takes them two seconds to confirm and one word to fix, where four questions take four turns.
 
-Read `references/targeting.md` for the archetype, level, and company tables.
+If they pasted a job description, extract must-haves, nice-to-haves, the implied archetype and level, and the company's own vocabulary using `references/jd-and-ats.md`. A posting answers three of the four rows above on its own, so with a JD in hand this step should cost **zero questions**.
 
-**Then branch on how they get to product.** Ask directly if it is not already clear.
+Read `references/targeting.md` for the archetype, level and company tables. Its five target questions are a fallback for a candidate who has given you nothing to read, not a script to run every time.
+
+
+**Then branch on how they get to product.** Read it from their history first; ask only if the resume genuinely does not say.
 
 | Situation | Read | What changes |
 |---|---|---|
@@ -120,7 +127,13 @@ Close by stating the target and getting a yes:
 
 The phase that determines quality. Most resumes fail from under-reporting, not bad writing.
 
-Work most recent role first. Don't ask about every bullet, ask about the two or three with the biggest gap between what's written and what likely happened. Pull five to seven of these, then **stop and wait**:
+**Three questions, then draft. Not five to seven per role.** Asking a full excavation set for every role is what makes this skill feel like a form. Rank every weak bullet across the whole resume by how much a good answer would improve it, take the **top three overall**, and ask only those. Then write the draft.
+
+After the draft, go back for **at most three more**, aimed at named gaps in bullets they can now see. This is the cheaper half of the excavation: a person looking at `Owned the iOS launch [what did it move?]` answers in one line, where the same question asked cold gets a paragraph about the team.
+
+Everything a role needs but nobody asked about, put in the draft as a labelled gap rather than a question. Gaps in a visible draft get filled; questions in a queue get skimmed.
+
+The bank below is what to choose those three from, ordered by yield. The first two earn their place on almost any resume:
 
 - What was the state of things when you took this on, and when you left?
 - How many people were on the team, engineering, design, data?
@@ -133,13 +146,15 @@ Work most recent role first. Don't ask about every bullet, ask about the two or 
 - What moved, and roughly by how much?
 - What's the thing you're proudest of here that isn't on the resume at all?
 
-Reading answers: a vague answer means ask once more, more specifically. A story with no number still works, route it to the Estimation Protocol. An impressive detail buried in an aside is usually the actual bullet; say so.
+**Do not run the bank per role.** Three questions covers a normal three-role resume, because the answers usually generalise: someone who tells you how they measured one launch has told you how they measure.
+
+Reading answers: a vague answer means ask once more, more specifically, and that re-ask comes out of the budget. A story with no number still works, route it to the Estimation Protocol. An impressive detail buried in an aside is usually the actual bullet; say so.
 
 If they can't remember, send them to artifacts rather than memory, see `references/from-scratch.md`.
 
 ### Step 4 of 6, Bullet rebuild
 
-Only now do you write. One role at a time, **before → after for every bullet**, so they learn the pattern rather than just receiving output.
+Only now do you write. **One role per message, all of its bullets at once**, as before → after so they learn the pattern rather than just receiving output. Never one bullet per message: fourteen bullets reviewed singly is fourteen turns, and by the fourth nobody is reading the before column.
 
 Read `references/bullets.md` for the formula, the ownership ladder, the metric taxonomy, the Estimation Protocol, and the anti-patterns. Read `references/writing-style.md` before writing the first bullet.
 
