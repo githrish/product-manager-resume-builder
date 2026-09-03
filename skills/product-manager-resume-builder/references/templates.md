@@ -16,7 +16,7 @@ So the resume can look designed. It cannot look like a Canva template with a sid
 
 Step 5 has a **structure** and a **treatment**, and they are decided by different people.
 
-**You pick the structure**, from what step 2 established. The candidate has the least information about this and the most to lose by guessing: someone breaking into product who picks an experience-first layout buries the projects that are their whole case. State which structure you chose and why, in one line, and let them override.
+**You pick the structure**, from what step 2 established. Three are available: experience-first, education-first, multi-role. The candidate has the least information about this and the most to lose by guessing: someone breaking into product who picks an experience-first layout buries the projects that are their whole case. State which structure you chose and why, in one line, and let them override.
 
 **They pick the treatment.** Once the structure is right, what remains is typography and density, which is a matter of taste and theirs to decide.
 
@@ -58,6 +58,24 @@ Say two things alongside it: that the summary is a draft and not locked, and tha
 
 If the environment truly cannot render anything, say so plainly and paste the top third of each as preformatted text. That is a degraded experience, not the intended one.
 
+### Multi-role
+
+For a candidate promoted inside one company, or whose work is better told by project than by job title. Common in PM: APM to PM at the same employer, or three years across four product areas under one heading.
+
+```
+Contact + current title  →  Experience (company once, roles nested)  →  Education  →  Additional information
+```
+
+What changes:
+
+- **The current title goes under the name**, on its own line. It tells the reader what you are before they reach the first role, which matters when the roles beneath are plural.
+- **The company appears once**, with locations right-aligned. Each role sits beneath it as a title with its own date range, most recent first. Do not repeat the company or restate its description; the progression is the point and repeating the employer hides it.
+- **Bullets belong to the company, not the role**, unless a specific achievement clearly belongs to one title. Splitting three bullets across two roles usually leaves both looking thin.
+- **A project sub-block** can sit inside a role: a "Selected Project Experience" heading, then named projects each carrying their own bullets. Use it when the work groups more naturally by initiative than by year.
+- **Additional Information** replaces the skills rows: technical skills, certifications and languages as labelled lines.
+
+Reach for this only when there is real progression or genuine project grouping to show. With one role at one company it adds structure and says nothing.
+
 ## Which structure for whom
 
 | Step 2 track | Structure | Why |
@@ -66,6 +84,7 @@ If the environment truly cannot render anything, say so plainly and paste the to
 | Switching in, 3+ years elsewhere | Experience-first, bullets reframed, Projects after Experience | Seniority is real and must not be buried behind education |
 | Early career, under 2 years | Education-first | Education and projects are the strongest evidence available |
 | Student or recent graduate | Education-first | Same, with coursework and honours carrying weight they never will again |
+| Promoted within one company, or project-shaped work | Multi-role | The progression is the strongest signal and a flat list of jobs hides it |
 
 When a candidate sits on the boundary, ask rather than guess: "Is your degree or your work the stronger part of your case right now?"
 
