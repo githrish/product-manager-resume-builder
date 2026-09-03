@@ -40,7 +40,7 @@ Cover, briefly:
 
 - **What they end up with.** A one-page, text-only, ATS-ready resume, plus a tailored version for each application.
 - **How it works.** You interview them first. Nothing gets written until step 4.
-- **How long.** Roughly 30 to 45 minutes of back and forth, and they can stop and resume.
+- **How long.** Roughly 30 to 45 minutes of back and forth. They can stop at any step and resume later.
 - **What to have ready.** Their current resume if one exists, and any job description they are targeting.
 - **That a layout choice is coming at step 5**, and that it depends on what the interview turns up, which is why it is not first.
 
