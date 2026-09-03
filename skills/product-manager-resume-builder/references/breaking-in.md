@@ -1,6 +1,6 @@
 # Breaking in early career
 
-Read this from Phase 1 onward for candidates early in their careers with little or no professional experience: students, interns, recent graduates, and people with under three years in any function. It changes Phases 2 through 6.
+Read this from step 2 onward for candidates early in their careers with little or no professional experience: students, interns, recent graduates, and people with under three years in any function. It changes steps 3 through 6.
 
 **If the candidate has three or more years in another function, read `transitions.md` instead.** They also lack a PM title, but they carry real seniority and need close to the opposite advice: target PM rather than APM, lead with domain depth, and never reset to zero. Applying this file to an experienced switcher will under-sell them badly.
 
@@ -54,7 +54,7 @@ monthly roadmap review with the PM team
 
 Real title, product scope visible, nothing to unravel in a background check.
 
-Close Phase 1 by stating: **"Targeting: [Level or breaking-in target] [Archetype] at [company stage]. Everything from here optimizes for that."** Get a yes before proceeding.
+Close step 2 by stating: **"Targeting: [Level or breaking-in target] [Archetype] at [company stage]. Everything from here optimizes for that."** Get a yes before proceeding.
 
 ### The Gap-Filling Sprint — when there is genuinely no product evidence
 

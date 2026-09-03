@@ -1,6 +1,6 @@
 # Product Manager Resume Builder
 
-Builds an ATS-ready product manager resume from the ground up. It interviews you about your work, rewrites your bullets with metrics you can defend, picks the right layout, and tailors the result to each job description. For first product roles, career switchers, and Senior PMs alike.
+Builds an ATS-ready product manager resume from the ground up. It interviews you about your work, rewrites your bullets with metrics you can defend, and picks the right layout. For first product roles, career switchers, and Senior PMs alike.
 
 It handles three kinds of candidate, which need different advice: people who already hold a PM title, people switching in from engineering, design, marketing, data, sales, support, ops, or consulting, and people starting out with little professional experience. A seven-year engineer and a final-year student both lack a PM title and need close to opposite resumes.
 
@@ -19,24 +19,15 @@ Seven steps. It tells you where you are at each one, and nothing gets written un
 | 3 | Excavation | Answer questions about your work, one role at a time |
 | 4 | Bullets | Review before and after on every rewrite |
 | 5 | Assembly | Choose a layout from five options |
-| 6 | Tailoring | Paste a job description and get a match score |
-| 7 | Audit | Get the failure list and the estimates you need to defend |
+| 6 | Audit and save | Get the failure list, the estimates to defend, and the finished file |
 
 Step 1 forks. If you have a resume, it diagnoses it and asks what you have done since. If you do not, a five-pass protocol builds from nothing. The layout choice waits until step 5 on purpose, because which one wins depends on what the interview turns up.
 
-## What it does
+## Scope
 
-Seven phases, run in order. Writing does not start until Phase 3. Everything before that exists to make sure there is something worth writing.
+It builds a **master resume** and stops there. That is a finished, sendable, one-page document, and it is also the thing you keep and reuse.
 
-| Phase | What happens |
-|---|---|
-| 0 · Intake | Diagnoses your draft bluntly. If you do not have one, a five-pass protocol builds from nothing |
-| 1 · Target lock | Role, level, market, company type, PM archetype. A resume with no target is a resume for no one |
-| 2 · Excavation | Interviews you role by role about the bullets hiding the most. This phase decides the quality of everything after it |
-| 3 · Bullet rebuild | Before and after for every bullet, so you learn the pattern instead of just receiving output |
-| 4 · Master resume | Builds a master you never send, plus five templates to choose from |
-| 5 · Tailoring loop | Per application, always derived from the master. Match score, keyword work, honest gap handling |
-| 6 · Audit | Checks every line and reports what failed instead of quietly fixing it |
+Two related jobs are deliberately not in this version: choosing how to position yourself across role types, and trimming the master against a specific job description. Both are better done once the master exists, and both are planned separately rather than bolted onto the build.
 
 ## Rules it will not break
 
@@ -118,7 +109,7 @@ A GitHub Action does the same on every push to `main` that touches `skills/`, an
 
 ## Getting the most out of it
 
-Spend fifteen minutes on a brain dump first. List everything you did in each role: what you shipped, decisions you made, fires you put out, people you convinced, things that failed. Do not write bullets and do not edit. Phase 2 is designed to mine exactly this.
+Spend fifteen minutes on a brain dump first. List everything you did in each role: what you shipped, decisions you made, fires you put out, people you convinced, things that failed. Do not write bullets and do not edit. Step 3 is designed to mine exactly this.
 
 When it asks you questions, answer with stories rather than summaries. "We were losing merchants at onboarding and nobody knew why, so I sat in on twenty calls" gives it far more to work with than "improved onboarding."
 

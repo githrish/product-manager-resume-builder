@@ -1,6 +1,6 @@
 # Building from scratch
 
-Read this for Phase 0 Track B (no resume exists), and for the recall prompts whenever a candidate says they can't remember.
+Read this for step 1 Track B (no resume exists), and for the recall prompts whenever a candidate says they can't remember.
 
 ## The Blank Page Protocol
 
@@ -42,7 +42,7 @@ Then produce a **Story Inventory** before writing a single bullet:
 **Thin areas:** [what's missing for this target, and whether it's fixable]
 ```
 
-Confirm the inventory, then run Phase 1.
+Confirm the inventory, then run step 2.
 
 #### When they can't remember
 

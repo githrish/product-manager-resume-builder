@@ -38,11 +38,12 @@ Before diagnosing anything, spend one message telling the candidate what is abou
 
 Cover, briefly:
 
-- **What they end up with.** A one-page, text-only, ATS-ready resume, plus a tailored version for each application.
+- **What they end up with.** A one-page, text-only, ATS-ready master resume they keep and reuse.
 - **How it works.** You interview them first. Nothing gets written until step 4.
 - **How long.** Roughly 30 to 45 minutes of back and forth. They can stop at any step and resume later.
 - **What to have ready.** Their current resume if one exists, and any job description they are targeting.
 - **That a layout choice is coming at step 5**, and that it depends on what the interview turns up, which is why it is not first.
+- **Where it stops.** The session produces the master resume and ends there. Trimming it for a specific posting is a separate job, done later.
 
 Then show the map:
 
@@ -53,18 +54,17 @@ Then show the map:
 | 3 | Excavation | Answer questions about their work |
 | 4 | Bullets | Review before and after on every rewrite |
 | 5 | Assembly | Choose a layout from five options |
-| 6 | Tailoring | Paste a job description |
-| 7 | Audit | Receive the failure list and the estimates to defend |
+| 6 | Audit and save | Receive the failure list, the estimates to defend, and the finished file |
 
 Close the message with the one question that decides the route, and wait:
 
 > Do you already have a resume, in any state? An outdated or half-finished one is still useful. If you don't have one at all, that's completely fine, we'll build from nothing.
 
-## Phase flow
+## The six steps
 
-Announce each phase, and give the step number so the candidate always knows where they are. Run them in order.
+Announce each step by number so the candidate always knows where they are. Run them in order.
 
-### Phase 0 — Intake and diagnosis · Step 1 of 7
+### Step 1 of 6 — Intake and diagnosis
 
 **Track A, a draft exists.** Read it. Don't comment on formatting yet. Produce only:
 
@@ -83,11 +83,11 @@ Then ask for a brain dump before moving on. A resume is a lagging record, and th
 
 > Two things before we go further. What have you worked on since you last updated this? And what's on here that undersells what you actually did?
 
-If they struggle to recall, give them the artifact prompts from Appendix: from-scratch. Then run Phase 1.
+If they struggle to recall, give them the artifact prompts from Appendix: from-scratch. Then run step 2.
 
 **Track B, nothing exists yet.** Read Appendix: from-scratch and run the Blank Page Protocol. Never tell someone to "write something first" — building from zero beats editing a bad draft.
 
-### Phase 1 — Target lock · Step 2 of 7
+### Step 2 of 6 — Target lock
 
 A resume with no target is a resume for no one. Establish before touching a bullet:
 
@@ -96,7 +96,7 @@ A resume with no target is a resume for no one. Establish before touching a bull
 - **Company archetype** — big tech, AI-native, Indian startup, growth SaaS, enterprise, services, seed
 - **PM archetype** — growth, platform, B2B, consumer, data/AI, marketplace, fintech
 
-If they pasted a job description, extract must-haves, nice-to-haves, the implied archetype and level, and the company's own vocabulary, using Appendix: jd-and-ats to classify requirements properly. If they only named a title, ask the five target questions in Appendix: targeting.
+If they pasted a job description, extract must-haves, nice-to-haves, the implied archetype and level, and the company's own vocabulary, using Appendix: jd-and-ats to separate real requirements from wish-list items. If they only named a title, ask the five target questions in Appendix: targeting.
 
 Read Appendix: targeting for the archetype, level, and company tables.
 
@@ -115,7 +115,7 @@ Remind them once that the layout choice arrives at step 5, after the content exi
 Close by stating the target and getting a yes:
 > Targeting: [level or breaking-in target] [archetype] at [company stage]. Everything from here optimises for that.
 
-### Phase 2 — Evidence excavation · Step 3 of 7
+### Step 3 of 6 — Evidence excavation
 
 The phase that determines quality. Most resumes fail from under-reporting, not bad writing.
 
@@ -136,17 +136,17 @@ Reading answers: a vague answer means ask once more, more specifically. A story 
 
 If they can't remember, send them to artifacts rather than memory — see Appendix: from-scratch.
 
-### Phase 3 — Bullet rebuild · Step 4 of 7
+### Step 4 of 6 — Bullet rebuild
 
 Only now do you write. One role at a time, **before → after for every bullet**, so they learn the pattern rather than just receiving output.
 
 Read Appendix: bullets for the formula, the ownership ladder, the metric taxonomy, the Estimation Protocol, and the anti-patterns. Check every rewritten bullet against that anti-pattern list before showing it.
 
-### Phase 4 — Master resume assembly · Step 5 of 7
+### Step 5 of 6 — Master resume assembly
 
-**Build the master first, always.** The master is the superset — every role, every bullet worth keeping, every metric — and is **never sent to anyone**. Each application is a view of it.
+**The master resume is the deliverable.** It holds every role, every bullet worth keeping, every metric, cut to one page and ready to send as it stands.
 
-Never edit an application copy directly. Edit the master, then re-derive. Tailoring a tailored copy compounds drift, and rewriting is where fabrication creeps in.
+It is also the source of truth for everything that comes after. When the candidate later trims it for a specific posting, they work from a copy and leave the master intact. Editing a trimmed copy and then trimming that again is how a resume drifts away from what actually happened.
 
 Read Appendix: templates for the five layouts, the one-page cutting order, and the formatting spec. **Offer the template choice with a recommendation; don't pick silently.**
 
@@ -161,31 +161,7 @@ Section order by situation:
 
 The summary is three lines: identity and level, strongest proof point, target. Cut every instance of "results-driven," "passionate," "proven track record," and "dynamic."
 
-### Phase 5 — The tailoring loop · Step 6 of 7
-
-Once per application, always derived from the master. Confirm market and company archetype first.
-
-1. **Classify the requirements** using Appendix: jd-and-ats, separating genuine must-haves from wish-list items and flagging real dealbreakers. Then extract keywords: hard skills, tools, methodologies, domain terms, in the posting's exact phrasing.
-2. **Match score:** `(required keywords present ÷ total required) × 100`, counting only the required set. Report it with the interpretation bands in that reference.
-3. **Integrate naturally** — keywords inside real sentences. Never a stuffed block, never white text.
-4. **Reorder, don't rewrite.** Promote bullets matching this JD to the top of each role.
-5. **Gap honesty.** For each unmet must-have: cover in the cover letter, cover with adjacent evidence, or accept it as a genuine gap. Don't paper over it.
-6. **Run the parser check** from Appendix: jd-and-ats before the file is sent. Most rejections blamed on keywords are parse failures.
-
-File naming: `Lastname_PM_Company_YYYY-MM.pdf`. Suggest a tracking table with match score, archetype, date applied, and outcome.
-
-```
-## Tailoring Report — [Role] at [Company]
-**Match score:** X% ([Y] of [Z] required keywords)
-**Market conventions applied:** [country — length, personal-details rule]
-**Company archetype:** [which, and the one emphasis shift it drove]
-**Verdict:** [Strong fit / Worth applying / Stretch — why]
-**Changes made:** [list]
-**Keywords added:** [list, and where each landed]
-**Still missing:** [list, and how to handle each]
-```
-
-### Phase 6 — Final audit · Step 7 of 7
+### Step 6 of 6 — Audit and save
 
 Verify every line. Report failures rather than silently fixing them.
 
@@ -194,7 +170,7 @@ Verify every line. Report failures rather than silently fixing them.
 - [ ] Every bullet passes the Defensibility Test
 - [ ] No duty-based bullets; every one has an outcome or a scale figure
 - [ ] Zero anti-patterns from Appendix: bullets
-- [ ] The Phase 1 archetype is legible in the top third of the page
+- [ ] The step 2 archetype is legible in the top third of the page
 - [ ] Level signal matches the target level
 - [ ] Text only — no photo, graphics, columns, tables, or text boxes
 - [ ] **One page**, unless the candidate explicitly chose two after being offered the choice
@@ -204,6 +180,18 @@ Verify every line. Report failures rather than silently fixing them.
 - [ ] For transitioners: seniority is visible and the target level is not reset to zero
 - [ ] Consistent tense, dates, and punctuation
 
+### Save it before you finish
+
+The session ends but the master has to survive it. 
+
+**If you can write files** (Claude Code, Codex, Cursor, or any agent with file access), save the master as `master-resume.md` in the candidate's working directory and tell them the exact path.
+
+**If you cannot** (a chat window with no file access), output the complete master in a single code block and say plainly: save this now, it is the thing you reuse.
+
+Either way, tell them what it is for:
+
+> This is your master. Keep it. When you apply somewhere, work from a copy: reorder the bullets so the ones matching that posting come first, and cut whatever the role does not care about. Leave the master itself alone so it stays true.
+
 Close with:
 
 ```
@@ -212,9 +200,8 @@ Close with:
 **Level signal moved:** [before] → [after]
 **Estimates you must be ready to defend:** [every labelled figure]
 **Remaining gaps:** [evidence to go collect]
-**Master resume:** [page count, where it stands]
-**Versions derived:** [list]
-**Next steps:** [tailoring targets, LinkedIn alignment]
+**Master resume:** [where it was saved, or that it was output above]
+**Next steps:** [what evidence to collect, what to fix before applying]
 ```
 
 ## Reference files
@@ -223,14 +210,14 @@ These are inlined below as appendices. Consult them at the phase named.
 
 | File | Read at | Contains |
 |---|---|---|
-| Appendix: from-scratch | Phase 0 Track B, Phase 2 | Blank Page Protocol, Story Inventory, recall prompts |
-| Appendix: targeting | Phase 1 | PM archetypes, level calibration, company archetypes, target questions |
-| Appendix: markets | Phase 1, Phase 4 | Country conventions, the one-page exception, text-only rule |
-| Appendix: transitions | Phase 1 onward, transitioning in | Level mapping for experienced switchers, domain leverage, the three routes, how to rebuild the old resume |
-| Appendix: breaking-in | Phase 1 onward, early career | Six entry targets, transferable evidence map, PO inversion, Title Honesty Rule, Gap-Filling Sprint |
-| Appendix: jd-and-ats | Phase 5 | Requirement classification, dealbreakers, parser failures, match-score bands |
-| Appendix: bullets | Phase 3 | Bullet formula, ownership ladder, metric taxonomy, Estimation Protocol, anti-patterns |
-| Appendix: templates | Phase 4 | Five layouts, one-page cutting order, formatting spec |
+| Appendix: from-scratch | Step 1 Track B, step 3 | Blank Page Protocol, Story Inventory, recall prompts |
+| Appendix: targeting | Step 2 | PM archetypes, level calibration, company archetypes, target questions |
+| Appendix: markets | Steps 2 and 5 | Country conventions, the one-page exception, text-only rule |
+| Appendix: transitions | Step 2 onward, transitioning in | Level mapping for experienced switchers, domain leverage, the three routes, how to rebuild the old resume |
+| Appendix: breaking-in | Step 2 onward, early career | Six entry targets, transferable evidence map, PO inversion, Title Honesty Rule, Gap-Filling Sprint |
+| Appendix: jd-and-ats | Steps 2 and 6 | Reading a posting to set the target, and the ATS parser checks |
+| Appendix: bullets | Step 4 | Bullet formula, ownership ladder, metric taxonomy, Estimation Protocol, anti-patterns |
+| Appendix: templates | Step 5 | Five layouts, one-page cutting order, formatting spec |
 
 ---
 
@@ -245,7 +232,7 @@ These are inlined below as appendices. Consult them at the phase named.
 3. Which of these is closest to the product you want to own? *(list the archetypes below)*
 4. Any specific companies or postings in mind?
 5. Are you targeting the same domain you're in now, or switching?
-6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below — it changes Phases 2 through 6.)*
+6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below — it changes steps 3 through 6.)*
 
 #### PM Archetypes — different jobs wearing the same title
 
@@ -278,7 +265,7 @@ Two of these rows describe people with no PM title, and they are not interchange
 
 #### Company Archetype — the same PM resume does not work everywhere
 
-Country sets the format. **Company type sets the emphasis**, and for PM roles this matters more than most candidates realize. Identify the archetype in Phase 1 and carry it through Phase 5.
+Country sets the format. **Company type sets the emphasis**, and for PM roles this matters more than most candidates realize. Identify the archetype at step 2 and carry it through step 6.
 
 | Company archetype | What the PM screen rewards | Push to the front | What quietly hurts you |
 |---|---|---|---|
@@ -310,7 +297,7 @@ The exception is real but narrow. Several markets (the UK, India, Germany, the N
 
 Then do what they decide. Never expand to two pages silently, and never pad a thin resume to fill a second page — a half-empty second page reads worse than a full first one.
 
-Beyond format, conventions are not universal, and defaults that are correct in one market are actively harmful in another. **Establish the target country before Phase 4.** If the candidate hasn't said, ask.
+Beyond format, conventions are not universal, and defaults that are correct in one market are actively harmful in another. **Establish the target country before step 5.** If the candidate hasn't said, ask.
 
 | Market | Local norm (the house default is still one page) | Personal details (DOB, nationality, marital status) | Notes that matter |
 |---|---|---|---|
@@ -465,7 +452,7 @@ monthly roadmap review with the PM team
 
 Real title, product scope visible, nothing to unravel in a background check.
 
-Close Phase 1 by stating: **"Targeting: [Level or breaking-in target] [Archetype] at [company stage]. Everything from here optimizes for that."** Get a yes before proceeding.
+Close step 2 by stating: **"Targeting: [Level or breaking-in target] [Archetype] at [company stage]. Everything from here optimizes for that."** Get a yes before proceeding.
 
 #### The Gap-Filling Sprint — when there is genuinely no product evidence
 
@@ -521,7 +508,7 @@ Then produce a **Story Inventory** before writing a single bullet:
 **Thin areas:** [what's missing for this target, and whether it's fixable]
 ```
 
-Confirm the inventory, then run Phase 1.
+Confirm the inventory, then run step 2.
 
 ##### When they can't remember
 
@@ -608,7 +595,7 @@ Never skip a metric, and never fabricate one. Instead:
 - **A wall of certifications** — five PM certificates read as a substitute for evidence, not a supplement to it
 - **"Passionate about products"** — every applicant writes this
 - **Teardowns of famous apps in the Experience section** — excellent in a portfolio, disqualifying as work history
-- **No evidence of ever shipping anything** — if this is genuinely true, run the Gap-Filling Sprint in Phase 5
+- **No evidence of ever shipping anything** — if this is genuinely true, run the Gap-Filling Sprint at steps 2 and 6
 
 ---
 
@@ -627,7 +614,7 @@ When the material doesn't fit, cut in this sequence. Stop as soon as it fits.
 
 What never gets cut to save space: a metric that makes a bullet credible, or the scope figure that tells a recruiter how big the job was. If the choice is between losing a number and going to two pages, ask the candidate.
 
-#### Template Library — pick one in Phase 4
+#### Template Library — pick one at step 5
 
 Five layouts, all single-column and text-only. **The difference between them is section order and one optional block — nothing decorative.** Anything beyond that (columns, sidebars, rules, icons, colour blocks, skill rating bars) breaks ATS parsing, and the parse is the thing standing between the resume and a human.
 
@@ -753,13 +740,15 @@ The session outputs plain text or Markdown. The candidate pastes it into their e
 
 Single column. No tables, text boxes, headers/footers, images, or photos. Standard section headers ("Professional Experience," not "Where I've Been"). Send a text-based PDF unless the posting asks for .docx. Full spec in the Template Library above.
 
-**Length is one page** — see the one-page discipline above for the cutting order, and the market table in Phase 1 for the narrow exception and how to offer it. **Personal details** (DOB, nationality, marital status) come from that same market table.
+**Length is one page** — see the one-page discipline above for the cutting order, and the market table at step 2 for the narrow exception and how to offer it. **Personal details** (DOB, nationality, marital status) come from that same market table.
 
-File naming is handled in Phase 5, since the name is per-application.
+File naming is handled at steps 2 and 6, since the name is per-application.
 
 ---
 
 ## Appendix: jd-and-ats
+
+This version of the skill builds a master resume and stops there. It does not produce per-application versions, so use the requirement classification below to understand the target, not to generate a tailored copy.
 
 ### Classifying requirements
 
@@ -808,13 +797,13 @@ Keyword matching only happens after the file parses. Most rejections that people
 
 **The check that catches all of it.** Open the finished PDF, select all, copy, and paste into a blank document. What appears is approximately what the parser sees. If the order scrambles, if anything vanishes, or if characters come through wrong, fix it before sending. This takes under a minute and is the single highest-value formatting check available.
 
-### Scoring the match
+### Reading the match, roughly
 
 ```
 Match score = required keywords present ÷ total required keywords × 100
 ```
 
-Count only the required set. Report the number, then interpret it:
+Count only the required set. This is a sanity check on whether the target is realistic, not an application score:
 
 - **85% and above.** Strong fit. Apply, and spend the saved effort on a referral
 - **70 to 84%.** Worth applying. Name the gaps and how to cover them

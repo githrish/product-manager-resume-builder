@@ -1,6 +1,6 @@
 # Templates, length, and formatting
 
-Read this in Phase 4.
+Read this at step 5.
 
 ### One-page discipline — what to cut, in order
 
@@ -15,7 +15,7 @@ When the material doesn't fit, cut in this sequence. Stop as soon as it fits.
 
 What never gets cut to save space: a metric that makes a bullet credible, or the scope figure that tells a recruiter how big the job was. If the choice is between losing a number and going to two pages, ask the candidate.
 
-### Template Library — pick one in Phase 4
+### Template Library — pick one at step 5
 
 Five layouts, all single-column and text-only. **The difference between them is section order and one optional block — nothing decorative.** Anything beyond that (columns, sidebars, rules, icons, colour blocks, skill rating bars) breaks ATS parsing, and the parse is the thing standing between the resume and a human.
 
@@ -141,6 +141,6 @@ The session outputs plain text or Markdown. The candidate pastes it into their e
 
 Single column. No tables, text boxes, headers/footers, images, or photos. Standard section headers ("Professional Experience," not "Where I've Been"). Send a text-based PDF unless the posting asks for .docx. Full spec in the Template Library above.
 
-**Length is one page** — see the one-page discipline above for the cutting order, and the market table in Phase 1 for the narrow exception and how to offer it. **Personal details** (DOB, nationality, marital status) come from that same market table.
+**Length is one page** — see the one-page discipline above for the cutting order, and the market table at step 2 for the narrow exception and how to offer it. **Personal details** (DOB, nationality, marital status) come from that same market table.
 
-File naming is handled in Phase 5, since the name is per-application.
+File naming is handled at steps 2 and 6, since the name is per-application.

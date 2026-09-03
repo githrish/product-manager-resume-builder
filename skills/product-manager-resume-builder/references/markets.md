@@ -1,6 +1,6 @@
 # Market conventions and the two house rules
 
-Read this in Phase 1 to set the target market, and again in Phase 4 before assembling.
+Read this at step 2 to set the target market, and again at step 5 before assembling.
 
 ### Market Conventions — ask, never assume
 
@@ -16,7 +16,7 @@ The exception is real but narrow. Several markets (the UK, India, Germany, the N
 
 Then do what they decide. Never expand to two pages silently, and never pad a thin resume to fill a second page — a half-empty second page reads worse than a full first one.
 
-Beyond format, conventions are not universal, and defaults that are correct in one market are actively harmful in another. **Establish the target country before Phase 4.** If the candidate hasn't said, ask.
+Beyond format, conventions are not universal, and defaults that are correct in one market are actively harmful in another. **Establish the target country before step 5.** If the candidate hasn't said, ask.
 
 | Market | Local norm (the house default is still one page) | Personal details (DOB, nationality, marital status) | Notes that matter |
 |---|---|---|---|

@@ -1,6 +1,8 @@
 # Reading a job description, and surviving the parser
 
-Read this in Phase 5, before scoring a match or finalising a version.
+Read this at step 2 when the candidate supplies a job description, so the target is set from what the posting actually requires, and at step 6 for the parser checks.
+
+This version of the skill builds a master resume and stops there. It does not produce per-application versions, so use the requirement classification below to understand the target, not to generate a tailored copy.
 
 ## Classifying requirements
 
@@ -49,13 +51,13 @@ Keyword matching only happens after the file parses. Most rejections that people
 
 **The check that catches all of it.** Open the finished PDF, select all, copy, and paste into a blank document. What appears is approximately what the parser sees. If the order scrambles, if anything vanishes, or if characters come through wrong, fix it before sending. This takes under a minute and is the single highest-value formatting check available.
 
-## Scoring the match
+## Reading the match, roughly
 
 ```
 Match score = required keywords present ÷ total required keywords × 100
 ```
 
-Count only the required set. Report the number, then interpret it:
+Count only the required set. This is a sanity check on whether the target is realistic, not an application score:
 
 - **85% and above.** Strong fit. Apply, and spend the saved effort on a referral
 - **70 to 84%.** Worth applying. Name the gaps and how to cover them

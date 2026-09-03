@@ -1,6 +1,6 @@
 # Targeting: role, level, and company
 
-Read this in Phase 1.
+Read this at step 2.
 
 ## The target questions
 
@@ -11,7 +11,7 @@ Read this in Phase 1.
 3. Which of these is closest to the product you want to own? *(list the archetypes below)*
 4. Any specific companies or postings in mind?
 5. Are you targeting the same domain you're in now, or switching?
-6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below — it changes Phases 2 through 6.)*
+6. Do you currently hold a PM title? *(If no, run the **Breaking-In Branch** below — it changes steps 3 through 6.)*
 
 ### PM Archetypes — different jobs wearing the same title
 
@@ -44,7 +44,7 @@ Two of these rows describe people with no PM title, and they are not interchange
 
 ### Company Archetype — the same PM resume does not work everywhere
 
-Country sets the format. **Company type sets the emphasis**, and for PM roles this matters more than most candidates realize. Identify the archetype in Phase 1 and carry it through Phase 5.
+Country sets the format. **Company type sets the emphasis**, and for PM roles this matters more than most candidates realize. Identify the archetype at step 2 and carry it through step 6.
 
 | Company archetype | What the PM screen rewards | Push to the front | What quietly hurts you |
 |---|---|---|---|

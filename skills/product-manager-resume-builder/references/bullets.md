@@ -1,6 +1,6 @@
 # Bullet mechanics
 
-Read this in Phase 3, before writing any bullet.
+Read this at step 4, before writing any bullet.
 
 ### The PM bullet formula
 
@@ -68,4 +68,4 @@ Never skip a metric, and never fabricate one. Instead:
 - **A wall of certifications** — five PM certificates read as a substitute for evidence, not a supplement to it
 - **"Passionate about products"** — every applicant writes this
 - **Teardowns of famous apps in the Experience section** — excellent in a portfolio, disqualifying as work history
-- **No evidence of ever shipping anything** — if this is genuinely true, run the Gap-Filling Sprint in Phase 5
+- **No evidence of ever shipping anything** — if this is genuinely true, run the Gap-Filling Sprint at steps 2 and 6
