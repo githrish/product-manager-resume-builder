@@ -218,6 +218,8 @@ Verify every line. Report failures rather than silently fixing them.
 - [ ] Level signal matches the target level
 - [ ] Text only, no photo, graphics, columns, tables, or text boxes
 - [ ] **One page**, unless the candidate explicitly chose two after being offered the choice
+- [ ] **The page is full, measured on the built PDF.** Content ends within about 10px of the bottom margin. Measure the true content bottom, never the page element's `offsetHeight`, which its `min-height` pins to a full page and which therefore cannot see underfill. Never report a fill figure taken from the HTML preview: print lays out tighter than screen, so the preview overstates it every time. See `references/templates.md`
+- [ ] **Section headings survive extraction.** Pull the text back out of the finished PDF and confirm the headings read `EXPERIENCE`, not `E X P E R I E N C E`. Letterspacing above about `.08em` breaks the word for the parser while looking correct on screen
 - [ ] Personal details present or absent as the target market expects
 - [ ] The template was offered rather than picked silently
 - [ ] Every job title is the real one, no upgrades, no softening

@@ -193,7 +193,24 @@ Use A4 for India, the UK, Europe and most of the world. Use US Letter (216mm by 
 
 A resume that stops two thirds down the page reads as thin, whatever the content says. Target the content ending within about 10px of the bottom margin, so the text block is genuinely full.
 
-Measure it as `content bottom` against `page height minus bottom margin`. Do not measure against the page height itself, which ignores the margin and lets the text run into it.
+### Measure it on the PDF, and measure the content, not the box
+
+Two traps here, and both of them report a page as full when it is not. Get either wrong and the check only ever catches overflow, which is the failure that was going to be obvious anyway.
+
+**The box lies.** The page element carries `min-height` set to the page height, so its `offsetHeight` can never report less than a full page however little is inside it. Measuring `offsetHeight - pageHeight` therefore detects overflow and is blind to underfill by construction. Measure the **true content bottom** instead: walk the page's descendants, take the largest `getBoundingClientRect().bottom` relative to the page top, and add the bottom padding.
+
+```js
+let bottom = 0;
+page.querySelectorAll('*').forEach(el => {
+  const r = el.getBoundingClientRect();
+  if (r.height > 0) bottom = Math.max(bottom, r.bottom - pageTop);
+});
+const contentHeight = bottom + paddingBottom;   // compare this, never offsetHeight
+```
+
+**The preview lies too.** Print layout is tighter than screen layout, so a page that looks full in the browser still underfills as a PDF. On one real resume the same content measured 1029px on screen and 886px in the PDF, a 143px gap, larger than most of the spacing adjustments you would make to close it. **Do the final fill check on the generated PDF, not on the HTML.** Read the text block's bounds on page one and compare its bottom against the page's bottom margin. If the tooling cannot measure the PDF, say so rather than reporting a fill figure from the preview, because that figure will be wrong in one direction every time.
+
+Fixing spacing against the preview and then shipping the PDF is how a page ends up a fifth empty with every check passing.
 
 When there is space left over, in this order. The order is the point: the first move adds evidence, the last only adds air.
 

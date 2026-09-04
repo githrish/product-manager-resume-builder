@@ -62,6 +62,7 @@ Keyword matching only happens after the file parses. Most rejections that people
 - **Images and logos** contribute nothing, and a resume built as an image contributes nothing at all
 - **Non-standard bullet glyphs and decorative dividers** can turn into replacement characters
 - **Unusual section headings** such as "Where I've been" are not recognised as Experience
+- **Letterspaced section headings** extract with a space between every letter, so `letter-spacing: .18em` on EXPERIENCE comes out of the PDF as `E X P E R I E N C E` and no longer matches the word the parser is looking for. It looks perfect on screen, which is why it survives review. Keep tracking on headings at or below about `.08em`, and confirm by extracting the text from the built PDF rather than reading the HTML
 - **Dates in inconsistent formats** confuse duration calculations, which some systems use to filter by years of experience
 - **A PDF exported from a design tool with text converted to outlines** contains no text at all
 
